@@ -8,25 +8,25 @@
     "snow": {
       "region": "III",
       "sgKpa": 1.5,
-      "source": "СП 20.13330.2016, приложение К",
-      "status": "from_sp20_appendix_k"
+      "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
+      "status": "verified"
     },
     "wind": {
-      "region": null,
-      "w0Kpa": null,
-      "source": "СП 20.13330.2016",
-      "status": "requires_verification"
+      "region": "I",
+      "w0Kpa": 0.23,
+      "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
+      "status": "verified"
     },
     "ice": {
-      "region": null,
-      "iceThicknessMm": null,
-      "source": "СП 20.13330.2016",
-      "status": "requires_verification"
+      "region": "II",
+      "iceThicknessMm": 5,
+      "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
+      "status": "verified"
     },
     "seismic": {
-      "points": null,
-      "source": "СП 14.13330",
-      "status": "requires_verification"
+      "points": 5,
+      "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
+      "status": "verified"
     },
     "terrain": {
       "defaultType": null,
@@ -38,8 +38,8 @@
     },
     "manualAllowed": true,
     "expertOverrideAllowed": true,
-    "dataStatus": "partial",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016."
+    "dataStatus": "verified",
+    "comment": "Контрольный город. Все параметры сверены через ese.pro/tools/calculatory/klimaticheskie-nagruzki/. Снеговая по прил. К СП 20.13330.2016: район III, Sg=1.5 кПа (в калькуляторе ese.pro показывается уточнённое значение 1.45 кПа). Ветровая I (0.23 кПа), гололёдная II (5 мм). Сейсмика по ОСР-2015 (карты A/B/C по СП 14.13330): 5 баллов."
   },
   {
     "id": "saint_petersburg",

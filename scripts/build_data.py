@@ -27,6 +27,10 @@ XLSX_PATH = ROOT / "data-source" / "settlements-climate-master.xlsx"
 SOURCE_SP20_APPENDIX_K = "СП 20.13330.2016, приложение К"
 SOURCE_SP20 = "СП 20.13330.2016"
 SOURCE_SP14 = "СП 14.13330"
+SOURCE_ESE_PRO = (
+    "СП 20.13330.2016 / СП 14.13330; сверено через "
+    "ese.pro/tools/calculatory/klimaticheskie-nagruzki/"
+)
 
 ALLOWED_TERRAIN = ["A", "B", "C"]
 
@@ -113,8 +117,28 @@ DATA: list[dict[str, Any]] = [
         name="Москва",
         snow_region="III",
         sg_kpa=1.5,
-        snow_status="from_sp20_appendix_k",
-        comment="Контрольный город. Снег по прил. К СП 20.13330.2016.",
+        snow_status="verified",
+        snow_source=SOURCE_ESE_PRO,
+        wind_region="I",
+        w0_kpa=0.23,
+        wind_status="verified",
+        wind_source=SOURCE_ESE_PRO,
+        ice_region="II",
+        ice_thickness_mm=5,
+        ice_status="verified",
+        ice_source=SOURCE_ESE_PRO,
+        seismic_points=5,
+        seismic_status="verified",
+        seismic_source=SOURCE_ESE_PRO,
+        data_status="verified",
+        comment=(
+            "Контрольный город. Все параметры сверены через "
+            "ese.pro/tools/calculatory/klimaticheskie-nagruzki/. "
+            "Снеговая по прил. К СП 20.13330.2016: район III, Sg=1.5 кПа "
+            "(в калькуляторе ese.pro показывается уточнённое значение 1.45 кПа). "
+            "Ветровая I (0.23 кПа), гололёдная II (5 мм). "
+            "Сейсмика по ОСР-2015 (карты A/B/C по СП 14.13330): 5 баллов."
+        ),
     ),
     settlement(
         sid="saint_petersburg",
