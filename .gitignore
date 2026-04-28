@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.DS_Store
+
+# scraper output: page dumps and screenshots are diagnostic only,
+# but ese-data.json is committed as a data source for build_data.py
+outputs/*.html
+outputs/*.png
+outputs/scrape.log
+scripts/__pycache__/
+
