@@ -1237,6 +1237,178 @@ DATA: list[dict[str, Any]] = [
 ]
 
 
+# ---------------------------------------------------------------------------
+# Merge с данными, собранными парсером ese.pro (см. scripts/scrape_ese.py).
+# ---------------------------------------------------------------------------
+
+ESE_DATA_PATH = ROOT / "outputs" / "ese-data.json"
+
+SOURCE_SP131 = "СП 131.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/"
+SOURCE_FROST = "СП 22.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/"
+
+
+def _round_sg(kpa: float | None) -> float | None:
+    """Округлить уточнённое значение Sg из ese.pro до района СП 20 (0.5..4.0)."""
+    if kpa is None:
+        return None
+    # ese.pro показывает уточнённое Sg (например 1.45 для Москвы).
+    # Для совместимости с SNOW_REGION_TO_SG_KPA храним округлённое значение
+    # района (1.5 для III), но точное оставляем в комментарии.
+    snow_region_to_sg = {0.5: 0.5, 1.0: 1.0, 1.5: 1.5, 2.0: 2.0, 2.5: 2.5, 3.0: 3.0, 3.5: 3.5, 4.0: 4.0}
+    # round up to nearest district
+    for v in sorted(snow_region_to_sg):
+        if kpa <= v + 0.001:
+            return v
+    return 4.0
+
+
+def merge_ese_data() -> None:
+    """Обогатить DATA значениями из outputs/ese-data.json (если файл есть)."""
+    if not ESE_DATA_PATH.exists():
+        print(f"[merge] {ESE_DATA_PATH} not found — skipping merge")
+        return
+
+    with ESE_DATA_PATH.open("r", encoding="utf-8") as f:
+        ese_state = json.load(f)
+
+    enriched = 0
+    for s in DATA:
+        sid = s["id"]
+        row = ese_state.get(sid)
+        if not row or not row.get("data"):
+            continue
+        d = row["data"]
+
+        # ── snow ──────────────────────────────────────────────────────────────
+        snow = d.get("loads", {}).get("snow", {})
+        if snow.get("region") and snow.get("kpa") is not None:
+            sg_district = _round_sg(snow["kpa"])
+            s["snow"] = {
+                "region": snow["region"],
+                "sgKpa": sg_district,
+                "source": SOURCE_ESE_PRO,
+                "status": "verified",
+            }
+            # сохранить уточнённое значение в комментарий, если отличается
+            if abs(snow["kpa"] - (sg_district or 0)) > 0.01:
+                exact = snow["kpa"]
+                base = s.get("comment") or ""
+                if "уточнённое" not in base and "уточнен" not in base:
+                    tag = f"Sg уточнённое ese.pro: {exact} кПа"
+                    s["comment"] = (base + " " + tag).strip()
+
+        # ── wind ──────────────────────────────────────────────────────────────
+        wind = d.get("loads", {}).get("wind", {})
+        if wind.get("region") and wind.get("kpa") is not None:
+            s["wind"] = {
+                "region": wind["region"],
+                "w0Kpa": wind["kpa"],
+                "source": SOURCE_ESE_PRO,
+                "status": "verified",
+            }
+
+        # ── ice ───────────────────────────────────────────────────────────────
+        ice = d.get("loads", {}).get("ice", {})
+        if ice.get("region") and ice.get("mm") is not None:
+            s["ice"] = {
+                "region": ice["region"],
+                "iceThicknessMm": ice["mm"],
+                "source": SOURCE_ESE_PRO,
+                "status": "verified",
+            }
+
+        # ── seismic ──────────────────────────────────────────────────────────
+        seismic = d.get("seismic", {})
+        if seismic.get("mapA") is not None:
+            # Для записи в seismic.points используем карту А (массовое строительство).
+            s["seismic"] = {
+                "points": seismic["mapA"],
+                "source": SOURCE_ESE_PRO,
+                "status": "verified",
+            }
+
+        # ── frost depth ──────────────────────────────────────────────────────
+        frost = d.get("frostDepth", {})
+        if any(frost.get(k) is not None for k in ("loamy", "sandyFine", "sandyCoarse", "coarseFragmental")):
+            s["frostDepth"] = {
+                "loamy": frost.get("loamy"),
+                "sandyFine": frost.get("sandyFine"),
+                "sandyCoarse": frost.get("sandyCoarse"),
+                "coarseFragmental": frost.get("coarseFragmental"),
+                "source": SOURCE_FROST,
+                "status": "verified",
+            }
+
+        # ── cold period (СП 131) ────────────────────────────────────────────
+        cold = d.get("cold", {})
+        if cold:
+            s["coldPeriod"] = {
+                "tempColdestDay098": cold.get("tempColdestDay098"),
+                "tempColdestDay092": cold.get("tempColdestDay092"),
+                "tempColdest5days098": cold.get("tempColdest5days098"),
+                "tempColdest5days092": cold.get("tempColdest5days092"),
+                "temp094": cold.get("temp094"),
+                "absMin": cold.get("absMin"),
+                "dailyAmplitude": cold.get("dailyAmplitude"),
+                "durationLe0": cold.get("durationLe0"),
+                "meanLe0": cold.get("meanLe0"),
+                "durationLe8": cold.get("durationLe8"),
+                "meanLe8": cold.get("meanLe8"),
+                "durationLe10": cold.get("durationLe10"),
+                "meanLe10": cold.get("meanLe10"),
+                "humidityCold": cold.get("humidityCold"),
+                "humidityCold15": cold.get("humidityCold15"),
+                "precipNovMar": cold.get("precipNovMar"),
+                "prevailingWindDecFeb": cold.get("prevailingWindDecFeb"),
+                "maxWindJan": cold.get("maxWindJan"),
+                "meanWindLe8": cold.get("meanWindLe8"),
+                "source": SOURCE_SP131,
+                "status": "verified",
+            }
+
+        # ── warm period (СП 131) ────────────────────────────────────────────
+        warm = d.get("warm", {})
+        if warm:
+            s["warmPeriod"] = {
+                "barometric": warm.get("barometric"),
+                "temp095": warm.get("temp095"),
+                "temp099": warm.get("temp099"),
+                "meanMaxTempWarmMonth": warm.get("meanMaxTempWarmMonth"),
+                "absMax": warm.get("absMax"),
+                "dailyAmplitude": warm.get("dailyAmplitude"),
+                "humidityWarm": warm.get("humidityWarm"),
+                "humidityWarm15": warm.get("humidityWarm15"),
+                "precipAprOct": warm.get("precipAprOct"),
+                "dailyMaxPrecip": warm.get("dailyMaxPrecip"),
+                "prevailingWindJunAug": warm.get("prevailingWindJunAug"),
+                "minWindJul": warm.get("minWindJul"),
+                "source": SOURCE_SP131,
+                "status": "verified",
+            }
+
+        # ── monthly temps ───────────────────────────────────────────────────
+        mt = d.get("monthlyTemps")
+        if mt and len(mt) == 13:
+            s["monthlyTemps"] = {
+                "byMonth": [float(x) if x is not None else None for x in mt[:12]],
+                "yearly": float(mt[12]) if mt[12] is not None else None,
+                "source": SOURCE_SP131,
+                "status": "verified",
+            }
+
+        # ── обновление сводного статуса ─────────────────────────────────────
+        params = [s["snow"]["status"], s["wind"]["status"], s["ice"]["status"], s["seismic"]["status"]]
+        if all(p == "verified" for p in params):
+            s["dataStatus"] = "verified"
+        elif any(p == "verified" for p in params):
+            s["dataStatus"] = "partial"
+        # else: оставить как было
+
+        enriched += 1
+
+    print(f"[merge] обогащено {enriched}/{len(DATA)} записей из ese.pro")
+
+
 def write_json() -> None:
     JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
     JSON_PATH.write_text(
@@ -1459,6 +1631,100 @@ def write_xlsx() -> None:
     style_header_row(ws_control)
     autosize(ws_control)
 
+    # 4a. 05_climate_extras ----------------------------------------------------
+    ws_extras = wb.create_sheet("05_climate_extras")
+    extras_headers = [
+        "id",
+        "settlement",
+        "region",
+        # frost depth (нормативная dfn, м)
+        "frost_loamy",
+        "frost_sandy_fine",
+        "frost_sandy_coarse",
+        "frost_coarse_fragm",
+        # cold period (СП 131.13330)
+        "t_coldest_day_098",
+        "t_coldest_day_092",
+        "t_coldest_5days_098",
+        "t_coldest_5days_092",
+        "t_094",
+        "t_abs_min",
+        "amp_cold_month",
+        "dur_le0",
+        "mean_le0",
+        "dur_le8",
+        "mean_le8",
+        "dur_le10",
+        "mean_le10",
+        "humidity_cold",
+        "humidity_cold_15",
+        "precip_nov_mar",
+        "wind_dir_dec_feb",
+        "max_wind_jan",
+        "mean_wind_le8",
+        # warm period
+        "barometric_hpa",
+        "t_095",
+        "t_099",
+        "mean_max_t_warm",
+        "t_abs_max",
+        "amp_warm_month",
+        "humidity_warm",
+        "humidity_warm_15",
+        "precip_apr_oct",
+        "daily_max_precip",
+        "wind_dir_jun_aug",
+        "min_wind_jul",
+        # monthly temps
+        "t_jan",
+        "t_feb",
+        "t_mar",
+        "t_apr",
+        "t_may",
+        "t_jun",
+        "t_jul",
+        "t_aug",
+        "t_sep",
+        "t_oct",
+        "t_nov",
+        "t_dec",
+        "t_year",
+    ]
+    ws_extras.append(extras_headers)
+    for s in DATA:
+        fd = s.get("frostDepth") or {}
+        cp = s.get("coldPeriod") or {}
+        wp = s.get("warmPeriod") or {}
+        mt = s.get("monthlyTemps") or {}
+        by_month = (mt.get("byMonth") or [None] * 12) if mt else [None] * 12
+        ws_extras.append(
+            [
+                s["id"], s["settlement"], s["region"],
+                fd.get("loamy"), fd.get("sandyFine"), fd.get("sandyCoarse"), fd.get("coarseFragmental"),
+                cp.get("tempColdestDay098"), cp.get("tempColdestDay092"),
+                cp.get("tempColdest5days098"), cp.get("tempColdest5days092"),
+                cp.get("temp094"), cp.get("absMin"),
+                cp.get("dailyAmplitude"),
+                cp.get("durationLe0"), cp.get("meanLe0"),
+                cp.get("durationLe8"), cp.get("meanLe8"),
+                cp.get("durationLe10"), cp.get("meanLe10"),
+                cp.get("humidityCold"), cp.get("humidityCold15"),
+                cp.get("precipNovMar"),
+                cp.get("prevailingWindDecFeb"),
+                cp.get("maxWindJan"), cp.get("meanWindLe8"),
+                wp.get("barometric"),
+                wp.get("temp095"), wp.get("temp099"),
+                wp.get("meanMaxTempWarmMonth"), wp.get("absMax"),
+                wp.get("dailyAmplitude"),
+                wp.get("humidityWarm"), wp.get("humidityWarm15"),
+                wp.get("precipAprOct"), wp.get("dailyMaxPrecip"),
+                wp.get("prevailingWindJunAug"), wp.get("minWindJul"),
+                *by_month, mt.get("yearly"),
+            ]
+        )
+    style_header_row(ws_extras)
+    autosize(ws_extras)
+
     # 4. 04_sources_plan -------------------------------------------------------
     ws_sources = wb.create_sheet("04_sources_plan")
     ws_sources.append(["Источник", "Назначение", "Статус"])
@@ -1473,11 +1739,21 @@ def write_xlsx() -> None:
             "Карты снегового, ветрового и гололёдного районирования",
             "основной источник",
         ),
-        ("СП 14.13330", "Сейсмичность", "основной источник"),
+        ("СП 14.13330", "Сейсмичность (карты А/B/C ОСР-2015)", "основной источник"),
         (
             "СП 131.13330",
-            "Климатические параметры (температура, влажность) — для следующих этапов",
-            "запланировано",
+            "Климатические параметры холодного и тёплого периодов, среднемесячные T",
+            "основной источник",
+        ),
+        (
+            "СП 22.13330",
+            "Глубина сезонного промерзания грунтов (нормативная dfn)",
+            "основной источник",
+        ),
+        (
+            "ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
+            "Сводный калькулятор СП 14/20/131 + СП 22 (агрегатор)",
+            "сверочный источник",
         ),
     ]
     for row in sources:
@@ -1489,6 +1765,7 @@ def write_xlsx() -> None:
 
 
 def main() -> None:
+    merge_ese_data()
     write_json()
     write_xlsx()
     print(f"settlements: {len(DATA)}")
