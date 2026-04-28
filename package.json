@@ -1,0 +1,13 @@
+{
+  "name": "nvf-calculator-climate-data",
+  "version": "0.1.0",
+  "description": "Стартовая мастер-таблица климатических параметров для калькулятора НВФ",
+  "private": true,
+  "scripts": {
+    "build:data": "python3 scripts/build_data.py",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
