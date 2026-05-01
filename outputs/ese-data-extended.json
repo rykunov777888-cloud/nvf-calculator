@@ -430,11 +430,40 @@
   },
   "alatyr__chuvashskaya_respublika_chuvashiya": {
     "city": "Алатырь",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "alatyr__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская Республика-Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642410,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -1153,11 +1182,40 @@
   },
   "argun__chechenskaya_respublika": {
     "city": "Аргун",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 9,
+        "mapB": 9,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "argun__chechenskaya_respublika",
     "region": "Чеченская Республика",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642297,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -6078,21 +6136,126 @@
   },
   "chebarkul__chelyabinskaya_oblast": {
     "city": "Чебаркуль",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "chebarkul__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642269,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
   "cheboksary__chuvashskaya_respublika_chuvashiya": {
     "city": "Чебоксары",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -44.0,
+        "dailyAmplitude": 6.9,
+        "durationLe0": 150,
+        "durationLe10": 224,
+        "durationLe8": 207,
+        "humidityCold": 84,
+        "humidityCold15": 82,
+        "maxWindJan": 6.0,
+        "meanLe0": -7.2,
+        "meanLe10": -3.1,
+        "meanLe8": -4.1,
+        "meanWindLe8": 5.1,
+        "precipNovMar": 162,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -15.0,
+        "tempColdest5days092": -29.0,
+        "tempColdest5days098": -34.0,
+        "tempColdestDay092": -35.0,
+        "tempColdestDay098": -40.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 2.04,
+        "loamy": 1.38,
+        "sandyCoarse": 1.8,
+        "sandyFine": 1.68
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 1.95,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -10.7,
+        -9.9,
+        -4.1,
+        4.8,
+        13.0,
+        17.3,
+        19.6,
+        17.4,
+        11.2,
+        4.3,
+        -3.0,
+        -8.2,
+        4.3
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 40.0,
+        "barometric": 996,
+        "dailyAmplitude": 10.4,
+        "dailyMaxPrecip": 93,
+        "humidityWarm": 68,
+        "humidityWarm15": 54,
+        "meanMaxTempWarmMonth": 25.6,
+        "minWindJul": 3.9,
+        "precipAprOct": 382,
+        "prevailingWindJunAug": "З",
+        "temp095": 23.0,
+        "temp099": 26.0
+      }
+    },
+    "error": null,
     "id": "cheboksary__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская Республика - Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642382,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -7074,11 +7237,40 @@
   },
   "danilov__yaroclavskaya_oblast": {
     "city": "Данилов",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "danilov__yaroclavskaya_oblast",
     "region": "Яроcлавская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642438,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -9601,11 +9793,40 @@
   },
   "gavrilov_yam__yaroslavskaya_oblast": {
     "city": "Гаврилов-Ям",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "gavrilov_yam__yaroslavskaya_oblast",
     "region": "Ярославская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642447,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -10524,11 +10745,40 @@
   },
   "gudermes__chechenskaya_respublika": {
     "city": "Гудермес",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "gudermes__chechenskaya_respublika",
     "region": "Чеченская Республика",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642307,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -12352,11 +12602,40 @@
   },
   "kanash__chuvashskaya_respublika_chuvashiya": {
     "city": "Канаш",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kanash__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская Республика - Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642344,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -13088,11 +13367,40 @@
   },
   "katav_ivanovsk__chelyabinskaya_oblast": {
     "city": "Катав-Ивановск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 20.0,
+          "region": "V"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "katav_ivanovsk__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642156,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
@@ -13499,11 +13807,87 @@
   },
   "khilok__chitinskaya_oblast": {
     "city": "Хилок",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -52.0,
+        "dailyAmplitude": 14.7,
+        "durationLe0": 186,
+        "durationLe10": 263,
+        "durationLe8": 247,
+        "humidityCold": 74,
+        "humidityCold15": 66,
+        "maxWindJan": 3.9,
+        "meanLe0": -15.2,
+        "meanLe10": -9.2,
+        "meanLe8": -10.4,
+        "meanWindLe8": 2.4,
+        "precipNovMar": 33,
+        "prevailingWindDecFeb": "З",
+        "temp094": -30.0,
+        "tempColdest5days092": -36.0,
+        "tempColdest5days098": -38.0,
+        "tempColdestDay092": -40.0,
+        "tempColdestDay098": -41.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 3.25,
+        "loamy": 2.2,
+        "sandyCoarse": 2.87,
+        "sandyFine": 2.68
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": [
+        -24.9,
+        -20.0,
+        -10.2,
+        0.3,
+        7.9,
+        14.5,
+        17.1,
+        14.3,
+        7.1,
+        -2.0,
+        -13.0,
+        -21.4,
+        -2.5
+      ],
+      "seismic": {
+        "mapA": 7,
+        "mapB": 7,
+        "mapC": 9
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 922,
+        "dailyAmplitude": 15.6,
+        "dailyMaxPrecip": 71,
+        "humidityWarm": 72,
+        "humidityWarm15": 51,
+        "meanMaxTempWarmMonth": 25.3,
+        "minWindJul": 0.0,
+        "precipAprOct": 336,
+        "prevailingWindJunAug": "З",
+        "temp095": 22.0,
+        "temp099": 26.0
+      }
+    },
+    "error": null,
     "id": "khilok__chitinskaya_oblast",
     "region": "Читинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642335,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -15552,11 +15936,40 @@
   },
   "korkino__chelyabinskaya_oblast": {
     "city": "Коркино",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "korkino__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642166,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -16218,11 +16631,40 @@
   },
   "kozlovka__chuvashskaya_respublika_chuvashiya": {
     "city": "Козловка",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kozlovka__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская Республика - Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642353,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -17578,11 +18020,40 @@
   },
   "kusa__chelyabinskaya_oblast": {
     "city": "Куса",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 15.0,
+          "region": "IV"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kusa__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642175,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -17877,11 +18348,40 @@
   },
   "kyshtym__chelyabinskaya_oblast": {
     "city": "Кыштым",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kyshtym__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642184,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -19065,11 +19565,40 @@
   },
   "lyubim__yaroslavskaya_oblast": {
     "city": "Любим",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "lyubim__yaroslavskaya_oblast",
     "region": "Ярославская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642457,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -19520,11 +20049,40 @@
   },
   "mariinskiy_posad__chuvashskaya_respublika_chuvashiya": {
     "city": "Мариинский Посад",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "mariinskiy_posad__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская республика - Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642419,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -20584,11 +21142,40 @@
   },
   "minyar__chelyabinskaya_oblast": {
     "city": "Миньяр",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 15.0,
+          "region": "IV"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "minyar__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642194,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
@@ -21211,11 +21798,40 @@
   },
   "myshkin__yaroslavskaya_oblast": {
     "city": "Мышкин",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "myshkin__yaroslavskaya_oblast",
     "region": "Ярославская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642466,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -22782,11 +23398,40 @@
   },
   "novocheboksarsk__chuvashskaya_respublika_chuvashiya": {
     "city": "Новочебоксарск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 1.95,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "novocheboksarsk__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская Республика - Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642363,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -24820,11 +25465,40 @@
   },
   "ozersk__chelyabinskaya_oblast": {
     "city": "Озёрск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "ozersk__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642203,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -26001,11 +26675,40 @@
   },
   "plast__chelyabinskaya_oblast": {
     "city": "Пласт",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "plast__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642212,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -26604,11 +27307,40 @@
   },
   "poshekhone__yaroslavskaya_oblast": {
     "city": "Пошехонье",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "poshekhone__yaroslavskaya_oblast",
     "region": "Ярославская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642475,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -27675,11 +28407,40 @@
   },
   "rostov__yaroslavskaya_oblast": {
     "city": "Ростов",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "rostov__yaroslavskaya_oblast",
     "region": "Ярославская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642484,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -29402,11 +30163,40 @@
   },
   "shali__chechenskaya_respublika": {
     "city": "Шали",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 9,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "shali__chechenskaya_respublika",
     "region": "Чеченская Республика",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642325,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -30216,11 +31006,40 @@
   },
   "shumerlya__chuvashskaya_respublika_chuvashiya": {
     "city": "Шумерля",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "shumerlya__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская Республика - Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642391,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -30390,11 +31209,40 @@
   },
   "sim__chelyabinskaya_oblast": {
     "city": "Сим",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 15.0,
+          "region": "IV"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "sim__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642222,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
@@ -30853,11 +31701,40 @@
   },
   "snezhinsk__chelyabinskaya_oblast": {
     "city": "Снежинск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "snezhinsk__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642231,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -33173,11 +34050,87 @@
   },
   "tarko_sale__yamalo_nenetskiy_avtonomnyy_okrug": {
     "city": "Тарко-Сале",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -55.0,
+        "dailyAmplitude": 8.4,
+        "durationLe0": 222,
+        "durationLe10": 285,
+        "durationLe8": 271,
+        "humidityCold": 77,
+        "humidityCold15": 77,
+        "maxWindJan": 3.5,
+        "meanLe0": -15.1,
+        "meanLe10": -10.6,
+        "meanLe8": -11.7,
+        "meanWindLe8": 2.9,
+        "precipNovMar": 158,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -33.0,
+        "tempColdest5days092": -47.0,
+        "tempColdest5days098": -49.0,
+        "tempColdestDay092": -50.0,
+        "tempColdestDay098": -53.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 3.56,
+        "loamy": 2.41,
+        "sandyCoarse": 3.14,
+        "sandyFine": 2.93
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -24.4,
+        -22.5,
+        -14.4,
+        -7.3,
+        0.7,
+        11.7,
+        16.4,
+        12.9,
+        6.0,
+        -3.7,
+        -16.0,
+        -21.3,
+        -5.2
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 36.0,
+        "barometric": 1,
+        "dailyAmplitude": 10.0,
+        "dailyMaxPrecip": 86,
+        "humidityWarm": 68,
+        "humidityWarm15": 54,
+        "meanMaxTempWarmMonth": 22.1,
+        "minWindJul": 3.3,
+        "precipAprOct": 386,
+        "prevailingWindJunAug": "С",
+        "temp095": 19.0,
+        "temp099": 23.0
+      }
+    },
+    "error": null,
     "id": "tarko_sale__yamalo_nenetskiy_avtonomnyy_okrug",
     "region": "Ямало-Ненецкий автономный округ",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642429,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -34511,21 +35464,79 @@
   },
   "trekhgornyy__chelyabinskaya_oblast": {
     "city": "Трёхгорный",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 20.0,
+          "region": "V"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "trekhgornyy__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642250,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
   "troitsk__chelyabinskaya_oblast": {
     "city": "Троицк",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "troitsk__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642241,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -34648,11 +35659,40 @@
   },
   "tsivilsk__chuvashskaya_respublika_chuvashiya": {
     "city": "Цивильск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "tsivilsk__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская Республика - Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642372,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -34869,11 +35909,40 @@
   },
   "tutaev__yaroslavskaya_oblast": {
     "city": "Тутаев",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "tutaev__yaroslavskaya_oblast",
     "region": "Ярославская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642494,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -35293,11 +36362,40 @@
   },
   "uglich__yaroslavskaya_oblast": {
     "city": "Углич",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "uglich__yaroslavskaya_oblast",
     "region": "Ярославская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642503,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -35467,11 +36565,40 @@
   },
   "urus_martan__chechenskaya_respublika": {
     "city": "Урус-Мартан",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 15.0,
+          "region": "IV"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 9,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "urus_martan__chechenskaya_respublika",
     "region": "Чеченская Республика",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642316,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -35672,11 +36799,40 @@
   },
   "ust_katav__chelyabinskaya_oblast": {
     "city": "Усть-Катав",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 20.0,
+          "region": "V"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "ust_katav__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642260,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
@@ -37961,11 +39117,40 @@
   },
   "yadrin__chuvashskaya_respublika_chuvashiya": {
     "city": "Ядрин",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "yadrin__chuvashskaya_respublika_chuvashiya",
     "region": "Чувашская Республика - Чувашия",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642400,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -38695,11 +39880,40 @@
   },
   "yuryuzan__chelyabinskaya_oblast": {
     "city": "Юрюзань",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 20.0,
+          "region": "V"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "yuryuzan__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642288,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
@@ -38783,11 +39997,40 @@
   },
   "yuzhnouralsk__chelyabinskaya_oblast": {
     "city": "Южноуральск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "yuzhnouralsk__chelyabinskaya_oblast",
     "region": "Челябинская область",
-    "scrapedAt": 1777635996,
+    "scrapedAt": 1777642279,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
