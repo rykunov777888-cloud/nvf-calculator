@@ -13,6 +13,7 @@ null со статусом 'requires_verification'. Не выдумывать з
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -1248,18 +1249,14 @@ SOURCE_FROST = "СП 22.13330; сверено через ese.pro/tools/calculato
 
 
 def _round_sg(kpa: float | None) -> float | None:
-    """Округлить уточнённое значение Sg из ese.pro до района СП 20 (0.5..4.0)."""
-    if kpa is None:
-        return None
-    # ese.pro показывает уточнённое Sg (например 1.45 для Москвы).
-    # Для совместимости с SNOW_REGION_TO_SG_KPA храним округлённое значение
-    # района (1.5 для III), но точное оставляем в комментарии.
-    snow_region_to_sg = {0.5: 0.5, 1.0: 1.0, 1.5: 1.5, 2.0: 2.0, 2.5: 2.5, 3.0: 3.0, 3.5: 3.5, 4.0: 4.0}
-    # round up to nearest district
-    for v in sorted(snow_region_to_sg):
-        if kpa <= v + 0.001:
-            return v
-    return 4.0
+    """Без округления: возвращаем точное значение Sg как пришло из ese.pro.
+
+    Раньше тут было округление вверх до района СП 20, но это создавало
+    несостыковки вида (region="III", sgKpa=2.0) — Sg=2.0 это уже IV район.
+    Теперь храним точное значение, район берём как есть из ese.pro.
+    Стандартные табличные значения районов остаются в листе 02_value_maps.
+    """
+    return kpa
 
 
 def merge_ese_data() -> None:
@@ -1280,22 +1277,20 @@ def merge_ese_data() -> None:
         d = row["data"]
 
         # ── snow ──────────────────────────────────────────────────────────────
+        # Точное значение Sg из ese.pro без округления — важна точность для
+        # расчёта снеговой нагрузки на фасад.
         snow = d.get("loads", {}).get("snow", {})
         if snow.get("region") and snow.get("kpa") is not None:
-            sg_district = _round_sg(snow["kpa"])
             s["snow"] = {
                 "region": snow["region"],
-                "sgKpa": sg_district,
+                "sgKpa": snow["kpa"],
                 "source": SOURCE_ESE_PRO,
                 "status": "verified",
             }
-            # сохранить уточнённое значение в комментарий, если отличается
-            if abs(snow["kpa"] - (sg_district or 0)) > 0.01:
-                exact = snow["kpa"]
-                base = s.get("comment") or ""
-                if "уточнённое" not in base and "уточнен" not in base:
-                    tag = f"Sg уточнённое ese.pro: {exact} кПа"
-                    s["comment"] = (base + " " + tag).strip()
+            # Снять устаревшие пометки про "уточнённое" — теперь sgKpa уже точное
+            base = s.get("comment") or ""
+            base = re.sub(r"\s*Sg уточнённое ese\.pro:\s*[\d.,]+\s*кПа\.?", "", base).strip()
+            s["comment"] = base
 
         # ── wind ──────────────────────────────────────────────────────────────
         wind = d.get("loads", {}).get("wind", {})
