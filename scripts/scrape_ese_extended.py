@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import subprocess
 import sys
 import time
 import unicodedata
@@ -33,7 +34,10 @@ from parse_ese import parse_ese_text  # noqa: E402
 URL = "https://ese.pro/tools/calculatory/klimaticheskie-nagruzki/"
 IN_PATH = ROOT / "outputs" / "lsk-lskos-cities.json"
 OUT_PATH = ROOT / "outputs" / "ese-data-extended.json"
+EXISTING_SETTLEMENTS_PATH = ROOT / "src" / "data" / "regions" / "settlements-climate.json"
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+COMMIT_EVERY = 100  # cities
 
 _TRANS = {
     "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e",
@@ -74,6 +78,52 @@ def save_state(state: Dict[str, Dict[str, Any]]) -> None:
         json.dump(state, f, ensure_ascii=False, indent=2, sort_keys=True)
 
 
+def load_existing_skip_set() -> set[tuple[str, str]]:
+    """Build a set of (city, region) tuples already verified in 205-city base.
+
+    Matches case-insensitively on settlement+region.
+    """
+    if not EXISTING_SETTLEMENTS_PATH.exists():
+        return set()
+    try:
+        existing = json.load(EXISTING_SETTLEMENTS_PATH.open("r", encoding="utf-8"))
+    except Exception:
+        return set()
+    skip: set[tuple[str, str]] = set()
+    for s in existing:
+        # Only skip if data is verified - no point re-scraping if already good
+        snow = s.get("snow") or {}
+        if snow.get("status") == "verified":
+            skip.add((s["settlement"].strip().lower(), s["region"].strip().lower()))
+    return skip
+
+
+def git_commit_push(milestone: int) -> None:
+    """Commit and push current progress to remote so a restarted session can resume."""
+    try:
+        subprocess.run(
+            ["git", "add", str(OUT_PATH.relative_to(ROOT))],
+            cwd=ROOT, check=True, capture_output=True,
+        )
+        msg = f"Скрейпер ese.pro extended: автокоммит после {milestone} городов"
+        r = subprocess.run(
+            ["git", "commit", "-m", msg],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+        if r.returncode != 0 and "nothing to commit" not in (r.stdout + r.stderr):
+            print(f"[git] commit failed: {r.stderr.strip()}", flush=True)
+            return
+        r = subprocess.run(
+            ["git", "push"], cwd=ROOT, capture_output=True, text=True,
+        )
+        if r.returncode != 0:
+            print(f"[git] push failed: {r.stderr.strip()[:200]}", flush=True)
+        else:
+            print(f"[git] pushed milestone={milestone}", flush=True)
+    except Exception as e:
+        print(f"[git] error: {e}", flush=True)
+
+
 def scrape_one(page, query: str) -> Optional[Dict[str, Any]]:
     page.goto(URL, wait_until="domcontentloaded", timeout=60000)
     page.wait_for_timeout(3000)
@@ -112,6 +162,18 @@ def main() -> int:
     args = ap.parse_args()
 
     cities: List[Dict[str, Any]] = json.load(IN_PATH.open("r", encoding="utf-8"))
+
+    # Filter out cities that are already verified in the 205-city base
+    skip_set = load_existing_skip_set()
+    if skip_set:
+        before = len(cities)
+        cities = [
+            c for c in cities
+            if (c["city"].strip().lower(), c["region"].strip().lower()) not in skip_set
+        ]
+        print(f"[filter] skipped {before - len(cities)} already verified cities; "
+              f"remaining {len(cities)}", flush=True)
+
     if args.start:
         cities = cities[args.start:]
     if args.limit:
@@ -122,6 +184,7 @@ def main() -> int:
     ok_cnt = 0
     fail_cnt = 0
     skip_cnt = 0
+    last_commit_at = 0
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=not args.headed)
@@ -189,7 +252,17 @@ def main() -> int:
                 flush=True,
             )
 
+            # Auto-commit + push every COMMIT_EVERY new cities so progress
+            # survives a session restart.
+            done_cnt = ok_cnt + fail_cnt
+            if done_cnt and done_cnt - last_commit_at >= COMMIT_EVERY:
+                save_state(state)
+                git_commit_push(done_cnt)
+                last_commit_at = done_cnt
+
         save_state(state)
+        if (ok_cnt + fail_cnt) > last_commit_at:
+            git_commit_push(ok_cnt + fail_cnt)
         browser.close()
 
     print(f"DONE total={total} ok={ok_cnt} fail={fail_cnt} skip={skip_cnt}")

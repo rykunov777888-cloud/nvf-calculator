@@ -25,6 +25,7 @@ from openpyxl.utils import get_column_letter
 ROOT = Path(__file__).resolve().parent.parent
 LSK_PATH = ROOT / "outputs" / "lsk-lskos-cities.json"
 ESE_PATH = ROOT / "outputs" / "ese-data-extended.json"
+ESE_OLD_PATH = ROOT / "outputs" / "ese-data.json"  # 205-city base scrape
 GEO_PATH = ROOT / "outputs" / "geocoded-cities.json"
 
 JSON_OUT = ROOT / "src" / "data" / "regions" / "settlements-climate-extended.json"
@@ -83,8 +84,19 @@ def _round_sg(kpa: float | None) -> float | None:
 
 def build_records() -> list[dict[str, Any]]:
     cities = json.load(LSK_PATH.open("r", encoding="utf-8"))
-    ese = json.load(ESE_PATH.open("r", encoding="utf-8")) if ESE_PATH.exists() else {}
+    ese_new = json.load(ESE_PATH.open("r", encoding="utf-8")) if ESE_PATH.exists() else {}
+    ese_old_raw = json.load(ESE_OLD_PATH.open("r", encoding="utf-8")) if ESE_OLD_PATH.exists() else {}
     geo = json.load(GEO_PATH.open("r", encoding="utf-8")) if GEO_PATH.exists() else {}
+
+    # Index old ese-data.json (205-city base) by (settlement.lower(), region.lower())
+    ese_old_by_pair: dict[tuple[str, str], dict[str, Any]] = {}
+    for old_row in ese_old_raw.values():
+        if not isinstance(old_row, dict):
+            continue
+        st = (old_row.get("settlement") or "").strip().lower()
+        rg = (old_row.get("region") or "").strip().lower()
+        if st:
+            ese_old_by_pair[(st, rg)] = old_row
 
     records: list[dict[str, Any]] = []
 
@@ -92,8 +104,15 @@ def build_records() -> list[dict[str, Any]]:
         city = c["city"]
         region = c["region"]
         sid = make_id(city, region)
-        ese_row = ese.get(sid) or {}
+
+        # Prefer extended scrape; fall back to existing 205-city scrape if available
+        ese_row = ese_new.get(sid) or {}
         ese_data = (ese_row or {}).get("data") or {}
+        if not ese_data or ese_data.get("loads", {}).get("snow", {}).get("kpa") is None:
+            old_match = ese_old_by_pair.get((city.strip().lower(), region.strip().lower()))
+            if old_match and (old_match.get("data") or {}).get("loads", {}).get("snow", {}).get("kpa") is not None:
+                ese_data = old_match["data"]
+
         geo_row = geo.get(make_geo_key(city, region)) or {}
 
         # ── snow ─────────────────────────────────────────────────────────
