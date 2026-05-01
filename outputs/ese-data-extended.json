@@ -1,11 +1,40 @@
 {
   "abaza__respublika_khakasiya": {
     "city": "Абаза",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 7,
+        "mapB": 7,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "abaza__respublika_khakasiya",
     "region": "Республика Хакасия",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639537,
     "sg_kpa_lsk": 3.5,
     "snow_region_lsk": "VII"
   },
@@ -167,21 +196,79 @@
   },
   "agryz__respublika_tatarstan": {
     "city": "Агрыз",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "agryz__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639317,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
   "ak_dovurak__respublika_tyva": {
     "city": "Ак-Довурак",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 20.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "ak_dovurak__respublika_tyva",
     "region": "Республика Тыва",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639514,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -226,21 +313,79 @@
   },
   "aksay__rostovskaya_oblast": {
     "city": "Аксай",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "aksay__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639572,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
   "alagir__respublika_severnaya_osetiya_alaniya": {
     "city": "Алагир",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 20.0,
+          "region": "V"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 9,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "alagir__respublika_severnaya_osetiya_alaniya",
     "region": "Республика Северная Осетия - Алания",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639271,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -437,21 +582,79 @@
   },
   "almetevsk__respublika_tatarstan": {
     "city": "Альметьевск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.85,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "almetevsk__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639340,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
   "alushta__respublika_krym": {
     "city": "Алушта",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "alushta__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638779,
     "sg_kpa_lsk": null,
     "snow_region_lsk": "I или II"
   },
@@ -690,11 +893,40 @@
   },
   "ardatov__respublika_mordoviya": {
     "city": "Ардатов",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "ardatov__respublika_mordoviya",
     "region": "Республика Мордовия",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639089,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -892,21 +1124,79 @@
   },
   "armyansk__respublika_krym": {
     "city": "Армянск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 6,
+        "mapB": 6,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "armyansk__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638790,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
   "arsk__respublika_tatarstan": {
     "city": "Арск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "arsk__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639351,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -1126,21 +1416,79 @@
   },
   "aznakaevo__respublika_tatarstan": {
     "city": "Азнакаево",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "aznakaevo__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639328,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
   "azov__rostovskaya_oblast": {
     "city": "Азов",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 6,
+        "mapB": 6,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "azov__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639560,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -1367,11 +1715,40 @@
   },
   "bakhchisaray__respublika_krym": {
     "city": "Бахчисарай",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "bakhchisaray__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638827,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -1494,11 +1871,85 @@
   },
   "balaklava__respublika_krym": {
     "city": "Балаклава",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -22.0,
+        "dailyAmplitude": 6.1,
+        "durationLe10": 160,
+        "durationLe8": 132,
+        "humidityCold": 78,
+        "humidityCold15": 73,
+        "maxWindJan": 6.0,
+        "meanLe10": 5.6,
+        "meanLe8": 4.9,
+        "meanWindLe8": 4.2,
+        "precipNovMar": 190,
+        "prevailingWindDecFeb": "СВ",
+        "temp094": 1.0,
+        "tempColdest5days092": -7.0,
+        "tempColdest5days098": -9.0,
+        "tempColdestDay092": -12.0,
+        "tempColdestDay098": -14.0
+      },
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        3.8,
+        4.2,
+        7.1,
+        10.9,
+        16.3,
+        21.4,
+        24.4,
+        24.4,
+        19.4,
+        14.4,
+        9.6,
+        5.6,
+        13.5
+      ],
+      "seismic": {
+        "mapA": 8,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {
+        "absMax": 38.0,
+        "barometric": 1,
+        "dailyAmplitude": 8.1,
+        "dailyMaxPrecip": 118,
+        "humidityWarm": 71,
+        "humidityWarm15": 61,
+        "meanMaxTempWarmMonth": 27.7,
+        "minWindJul": 0.0,
+        "precipAprOct": 230,
+        "prevailingWindJunAug": "В",
+        "temp095": 28.0,
+        "temp099": 31.0
+      }
+    },
+    "error": null,
     "id": "balaklava__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638816,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -1784,21 +2235,79 @@
   },
   "bataysk__rostovskaya_oblast": {
     "city": "Батайск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "bataysk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639584,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
   "bavly__respublika_tatarstan": {
     "city": "Бавлы",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "bavly__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639363,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -1929,11 +2438,40 @@
   },
   "belaya_kalitva__rostovskaya_oblast": {
     "city": "Белая Калитва",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "belaya_kalitva__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639596,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -2199,11 +2737,87 @@
   },
   "belogorsk__respublika_krym": {
     "city": "Белогорск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -50.0,
+        "dailyAmplitude": 9.5,
+        "durationLe0": 166,
+        "durationLe10": 225,
+        "durationLe8": 211,
+        "humidityCold": 76,
+        "humidityCold15": 71,
+        "maxWindJan": 2.6,
+        "meanLe0": -15.6,
+        "meanLe10": -10.2,
+        "meanLe8": -11.4,
+        "meanWindLe8": 2.1,
+        "precipNovMar": 50,
+        "prevailingWindDecFeb": "СЗ",
+        "temp094": -27.0,
+        "tempColdest5days092": -35.0,
+        "tempColdest5days098": -37.0,
+        "tempColdestDay092": -38.0,
+        "tempColdestDay098": -39.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 3.13,
+        "loamy": 2.12,
+        "sandyCoarse": 2.77,
+        "sandyFine": 2.58
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -24.0,
+        -18.5,
+        -8.1,
+        3.9,
+        12.4,
+        18.9,
+        21.5,
+        19.1,
+        12.1,
+        1.9,
+        -12.1,
+        -22.3,
+        0.4
+      ],
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {
+        "absMax": 42.0,
+        "barometric": 991,
+        "dailyAmplitude": 11.4,
+        "dailyMaxPrecip": 102,
+        "humidityWarm": 75,
+        "humidityWarm15": 61,
+        "meanMaxTempWarmMonth": 27.1,
+        "minWindJul": 2.4,
+        "precipAprOct": 509,
+        "prevailingWindJunAug": "Ю",
+        "temp095": 25.0,
+        "temp099": 27.0
+      }
+    },
+    "error": null,
     "id": "belogorsk__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638838,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -2248,11 +2862,40 @@
   },
   "belomorsk__respublika_kareliya": {
     "city": "Беломорск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "belomorsk__respublika_kareliya",
     "region": "Республика Карелия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638630,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -2608,11 +3251,40 @@
   },
   "beslan__respublika_severnaya_osetiya_alaniya": {
     "city": "Беслан",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 15.0,
+          "region": "IV"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 9,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "beslan__respublika_severnaya_osetiya_alaniya",
     "region": "Республика Северная Осетия - Алания",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639282,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -3409,11 +4081,40 @@
   },
   "bolgar__respublika_tatarstan": {
     "city": "Болгар",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "bolgar__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639374,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -3855,11 +4556,87 @@
   },
   "bugulma__respublika_tatarstan": {
     "city": "Бугульма",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -47.0,
+        "dailyAmplitude": 7.3,
+        "durationLe0": 156,
+        "durationLe10": 224,
+        "durationLe8": 209,
+        "humidityCold": 83,
+        "humidityCold15": 81,
+        "maxWindJan": 6.4,
+        "meanLe0": -8.3,
+        "meanLe10": -4.2,
+        "meanLe8": -5.2,
+        "meanWindLe8": 4.9,
+        "precipNovMar": 143,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -16.0,
+        "tempColdest5days092": -29.0,
+        "tempColdest5days098": -33.0,
+        "tempColdestDay092": -35.0,
+        "tempColdestDay098": -40.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 2.23,
+        "loamy": 1.51,
+        "sandyCoarse": 1.97,
+        "sandyFine": 1.84
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.55,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -12.2,
+        -11.4,
+        -5.3,
+        4.6,
+        13.0,
+        17.1,
+        19.0,
+        17.0,
+        11.1,
+        3.4,
+        -4.3,
+        -9.8,
+        3.5
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 980,
+        "dailyAmplitude": 11.7,
+        "dailyMaxPrecip": 108,
+        "humidityWarm": 68,
+        "humidityWarm15": 53,
+        "meanMaxTempWarmMonth": 25.6,
+        "minWindJul": 0.0,
+        "precipAprOct": 369,
+        "prevailingWindJunAug": "З",
+        "temp095": 22.0,
+        "temp099": 26.0
+      }
+    },
+    "error": null,
     "id": "bugulma__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639386,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -3951,11 +4728,40 @@
   },
   "buinsk__respublika_tatarstan": {
     "city": "Буинск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "buinsk__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639398,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -4117,11 +4923,40 @@
   },
   "chadan__respublika_tyva": {
     "city": "Чадан",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 20.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "chadan__respublika_tyva",
     "region": "Республика Тыва",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639525,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -4651,11 +5486,40 @@
   },
   "chernogorsk__respublika_khakasiya": {
     "city": "Черногорск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 7,
+        "mapB": 7,
+        "mapC": 8
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "chernogorsk__respublika_khakasiya",
     "region": "Республика Хакасия",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639549,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -4739,11 +5603,87 @@
   },
   "chistopol__respublika_respublika_tatarstan": {
     "city": "Чистополь",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -48.0,
+        "dailyAmplitude": 7.0,
+        "durationLe0": 153,
+        "durationLe10": 222,
+        "durationLe8": 207,
+        "humidityCold": 84,
+        "humidityCold15": 83,
+        "maxWindJan": 6.7,
+        "meanLe0": -8.0,
+        "meanLe10": -3.9,
+        "meanLe8": -4.9,
+        "meanWindLe8": 4.9,
+        "precipNovMar": 147,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -17.0,
+        "tempColdest5days092": -30.0,
+        "tempColdest5days098": -34.0,
+        "tempColdestDay092": -35.0,
+        "tempColdestDay098": -40.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 2.17,
+        "loamy": 1.47,
+        "sandyCoarse": 1.92,
+        "sandyFine": 1.79
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -11.8,
+        -11.3,
+        -5.0,
+        4.8,
+        13.2,
+        17.4,
+        19.5,
+        17.4,
+        11.3,
+        4.0,
+        -3.6,
+        -9.1,
+        3.9
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 7
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 997,
+        "dailyAmplitude": 10.9,
+        "dailyMaxPrecip": 55,
+        "humidityWarm": 71,
+        "humidityWarm15": 55,
+        "meanMaxTempWarmMonth": 25.8,
+        "minWindJul": 0.0,
+        "precipAprOct": 344,
+        "prevailingWindJunAug": "З",
+        "temp095": 23.0,
+        "temp099": 27.0
+      }
+    },
+    "error": null,
     "id": "chistopol__respublika_respublika_tatarstan",
     "region": "Республика Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639179,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -5318,11 +6258,40 @@
   },
   "digora__respublika_severnaya_osetiya_alaniya": {
     "city": "Дигора",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 15.0,
+          "region": "IV"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "digora__respublika_severnaya_osetiya_alaniya",
     "region": "Республика Северная Осетия - Алания",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639305,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -5543,11 +6512,87 @@
   },
   "donetsk__rostovskaya_oblast": {
     "city": "Донецк",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -35.0,
+        "dailyAmplitude": 5.3,
+        "durationLe0": 118,
+        "durationLe10": 197,
+        "durationLe8": 182,
+        "humidityCold": 89,
+        "humidityCold15": 82,
+        "maxWindJan": 4.5,
+        "meanLe0": -4.1,
+        "meanLe10": -0.5,
+        "meanLe8": -1.3,
+        "meanWindLe8": 5.0,
+        "precipNovMar": 329,
+        "prevailingWindDecFeb": "В",
+        "temp094": -9.0,
+        "tempColdest5days092": -22.0,
+        "tempColdest5days098": -26.0,
+        "tempColdestDay092": -26.0,
+        "tempColdestDay098": -29.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.32,
+        "loamy": 0.89,
+        "sandyCoarse": 1.16,
+        "sandyFine": 1.08
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": [
+        -5.8,
+        -5.5,
+        0.0,
+        8.8,
+        15.3,
+        19.0,
+        21.1,
+        20.3,
+        14.4,
+        7.4,
+        0.9,
+        -3.7,
+        7.7
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 989,
+        "dailyAmplitude": 11.0,
+        "dailyMaxPrecip": 125,
+        "humidityWarm": 63,
+        "humidityWarm15": 40,
+        "meanMaxTempWarmMonth": 27.1,
+        "minWindJul": 3.8,
+        "precipAprOct": 329,
+        "prevailingWindJunAug": "В",
+        "temp095": 26.0,
+        "temp099": 30.0
+      }
+    },
+    "error": null,
     "id": "donetsk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639631,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -5856,11 +6901,40 @@
   },
   "dzhankoy__respublika_krym": {
     "city": "Джанкой",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 6,
+        "mapB": 7,
+        "mapC": 8
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "dzhankoy__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638849,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -5915,11 +6989,87 @@
   },
   "elabuga__respublika_tatarstan": {
     "city": "Елабуга",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -47.0,
+        "dailyAmplitude": 7.5,
+        "durationLe0": 148,
+        "durationLe10": 220,
+        "durationLe8": 206,
+        "humidityCold": 80,
+        "humidityCold15": 76,
+        "maxWindJan": 3.9,
+        "meanLe0": -8.0,
+        "meanLe10": -3.7,
+        "meanLe8": -4.6,
+        "meanWindLe8": 2.6,
+        "precipNovMar": 185,
+        "prevailingWindDecFeb": "ЮЗ",
+        "temp094": -17.0,
+        "tempColdest5days092": -30.0,
+        "tempColdest5days098": -33.0,
+        "tempColdestDay092": -35.0,
+        "tempColdestDay098": -41.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 2.12,
+        "loamy": 1.43,
+        "sandyCoarse": 1.87,
+        "sandyFine": 1.75
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -11.7,
+        -10.9,
+        -4.0,
+        5.4,
+        13.6,
+        18.1,
+        20.2,
+        17.7,
+        11.6,
+        4.3,
+        -3.2,
+        -9.1,
+        4.3
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {
+        "absMax": 40.0,
+        "barometric": 1,
+        "dailyAmplitude": 11.7,
+        "dailyMaxPrecip": 71,
+        "humidityWarm": 65,
+        "humidityWarm15": 48,
+        "meanMaxTempWarmMonth": 26.8,
+        "minWindJul": 0.0,
+        "precipAprOct": 360,
+        "prevailingWindJunAug": "СЗ",
+        "temp095": 24.0,
+        "temp099": 27.0
+      }
+    },
+    "error": null,
     "id": "elabuga__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639409,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -6148,11 +7298,40 @@
   },
   "emva__respublika_komi": {
     "city": "Емва",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "emva__respublika_komi",
     "region": "Республика Коми",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638725,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -6352,11 +7531,40 @@
   },
   "evpatoriya__respublika_krym": {
     "city": "Евпатория",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.45,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 7,
+        "mapB": 7,
+        "mapC": 8
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "evpatoriya__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638860,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -6440,11 +7648,85 @@
   },
   "feodosiya__respublika_krym": {
     "city": "Феодосия",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -25.0,
+        "dailyAmplitude": 5.8,
+        "durationLe10": 163,
+        "durationLe8": 141,
+        "humidityCold": 80,
+        "humidityCold15": 74,
+        "maxWindJan": 5.4,
+        "meanLe10": 4.5,
+        "meanLe8": 3.7,
+        "meanWindLe8": 3.4,
+        "precipNovMar": 199,
+        "prevailingWindDecFeb": "СЗ",
+        "temp094": -2.0,
+        "tempColdest5days092": -11.0,
+        "tempColdest5days098": -15.0,
+        "tempColdestDay092": -15.0,
+        "tempColdestDay098": -18.0
+      },
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        1.6,
+        2.0,
+        5.2,
+        10.8,
+        16.5,
+        21.4,
+        24.3,
+        23.9,
+        18.8,
+        13.0,
+        7.7,
+        4.0,
+        12.4
+      ],
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 1,
+        "dailyAmplitude": 9.2,
+        "dailyMaxPrecip": 132,
+        "humidityWarm": 63,
+        "humidityWarm15": 53,
+        "meanMaxTempWarmMonth": 29.9,
+        "minWindJul": 2.6,
+        "precipAprOct": 274,
+        "prevailingWindJunAug": "З",
+        "temp095": 27.0,
+        "temp099": 29.0
+      }
+    },
+    "error": null,
     "id": "feodosiya__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638975,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -7561,11 +8843,40 @@
   },
   "gukovo__rostovskaya_oblast": {
     "city": "Гуково",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "gukovo__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639619,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -7883,41 +9194,157 @@
   },
   "inkerman__respublika_krym": {
     "city": "Инкерман",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 10
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "inkerman__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638886,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
   "innopolis__respublika_tatarstan": {
     "city": "Иннополис",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "innopolis__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639444,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
   "insar__respublika_mordoviya": {
     "city": "Инсар",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "insar__respublika_mordoviya",
     "region": "Республика Мордовия",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639100,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
   "inta__respublika_komi": {
     "city": "Инта",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 3.0,
+          "region": "VI"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "inta__respublika_komi",
     "region": "Республика Коми",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638736,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
@@ -8655,11 +10082,40 @@
   },
   "kamensk_shakhtinskiy__rostovskaya_oblast": {
     "city": "Каменск-Шахтинский",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kamensk_shakhtinskiy__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639667,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -9342,11 +10798,40 @@
   },
   "kasimov__ryazanskaya_oblast": {
     "city": "Касимов",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kasimov__ryazanskaya_oblast",
     "region": "Рязанская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639808,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -9460,21 +10945,160 @@
   },
   "kem__respublika_kareliya": {
     "city": "Кемь",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -40.0,
+        "dailyAmplitude": 7.5,
+        "durationLe0": 171,
+        "durationLe10": 274,
+        "durationLe8": 250,
+        "humidityCold": 85,
+        "humidityCold15": 83,
+        "maxWindJan": 4.6,
+        "meanLe0": -6.3,
+        "meanLe10": -2.0,
+        "meanLe8": -3.0,
+        "meanWindLe8": 4.2,
+        "precipNovMar": 143,
+        "prevailingWindDecFeb": "З",
+        "temp094": -15.0,
+        "tempColdest5days092": -28.0,
+        "tempColdest5days098": -31.0,
+        "tempColdestDay092": -32.0,
+        "tempColdestDay098": -34.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 2.01,
+        "loamy": 1.36,
+        "sandyCoarse": 1.77,
+        "sandyFine": 1.65
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -10.0,
+        -9.6,
+        -5.1,
+        -0.2,
+        5.5,
+        11.1,
+        14.6,
+        13.3,
+        8.9,
+        2.9,
+        -2.9,
+        -7.0,
+        1.8
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kem__respublika_kareliya",
     "region": "Республика Карелия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638640,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
   "kerch__respublika_krym": {
     "city": "Керчь",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -23.0,
+        "dailyAmplitude": 5.9,
+        "durationLe0": 19,
+        "durationLe10": 172,
+        "durationLe8": 152,
+        "humidityCold": 84,
+        "humidityCold15": 78,
+        "maxWindJan": 6.2,
+        "meanLe0": -0.1,
+        "meanLe10": 3.6,
+        "meanLe8": 2.9,
+        "meanWindLe8": 5.0,
+        "precipNovMar": 177,
+        "prevailingWindDecFeb": "СВ",
+        "temp094": -3.0,
+        "tempColdest5days092": -12.0,
+        "tempColdest5days098": -15.0,
+        "tempColdestDay092": -15.0,
+        "tempColdestDay098": -18.0
+      },
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": [
+        0.3,
+        0.7,
+        4.0,
+        10.0,
+        15.7,
+        20.8,
+        23.6,
+        23.3,
+        18.1,
+        12.1,
+        6.5,
+        2.8,
+        11.5
+      ],
+      "seismic": {
+        "mapA": 8,
+        "mapB": 9,
+        "mapC": 9
+      },
+      "warm": {
+        "absMax": 38.0,
+        "barometric": 1,
+        "dailyAmplitude": 9.7,
+        "dailyMaxPrecip": 146,
+        "humidityWarm": 65,
+        "humidityWarm15": 50,
+        "meanMaxTempWarmMonth": 29.2,
+        "minWindJul": 4.4,
+        "precipAprOct": 257,
+        "prevailingWindJunAug": "С",
+        "temp095": 27.0,
+        "temp099": 29.0
+      }
+    },
+    "error": null,
     "id": "kerch__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638897,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -9529,11 +11153,40 @@
   },
   "khasavyurt__respublika_respublika_dagestan": {
     "city": "Хасавюрт",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.65,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "khasavyurt__respublika_respublika_dagestan",
     "region": "Республика Республика Дагестан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639156,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -10984,11 +12637,40 @@
   },
   "kondopoga__respublika_kareliya": {
     "city": "Кондопога",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kondopoga__respublika_kareliya",
     "region": "Республика Карелия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638651,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -11033,21 +12715,79 @@
   },
   "konstantinovsk__rostovskaya_oblast": {
     "city": "Константиновск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "konstantinovsk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639679,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
   "korablino__ryazanskaya_oblast": {
     "city": "Кораблино",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "korablino__ryazanskaya_oblast",
     "region": "Рязанская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639821,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -11651,11 +13391,40 @@
   },
   "kovylkino__respublika_mordoviya": {
     "city": "Ковылкино",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kovylkino__respublika_mordoviya",
     "region": "Республика Мордовия",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639111,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -11710,11 +13479,40 @@
   },
   "kozmodemyansk__respublika_mariy_el": {
     "city": "Козьмодемьянск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "kozmodemyansk__respublika_mariy_el",
     "region": "Республика Марий Эл",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777639077,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -11925,21 +13723,79 @@
   },
   "krasnoperekopsk__respublika_krym": {
     "city": "Красноперекопск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 6,
+        "mapB": 6,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "krasnoperekopsk__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638908,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
   "krasnoslobodsk__respublika_mordoviya": {
     "city": "Краснослободск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "krasnoslobodsk__respublika_mordoviya",
     "region": "Республика Мордовия",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639122,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -12131,11 +13987,40 @@
   },
   "krasnyy_sulin__rostovskaya_oblast": {
     "city": "Красный Сулин",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "krasnyy_sulin__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639691,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -13110,31 +14995,118 @@
   },
   "lagan__respublika_kalmykiya": {
     "city": "Лагань",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "lagan__respublika_kalmykiya",
     "region": "Республика Калмыкия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638619,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
   "laishevo__respublika_tatarstan": {
     "city": "Лаишево",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "laishevo__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639455,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
   "lakhdenpokhya__respublika_kareliya": {
     "city": "Лахденпохья",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "lakhdenpokhya__respublika_kareliya",
     "region": "Республика Карелия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638662,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -13179,11 +15151,40 @@
   },
   "leninogorsk__respublika_tatarstan": {
     "city": "Лениногорск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "leninogorsk__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639467,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -14600,21 +16601,79 @@
   },
   "mendeleevsk__respublika_tatarstan": {
     "city": "Менделеевск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "mendeleevsk__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639479,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
   "menzelinsk__respublika_tatarstan": {
     "city": "Мензелинск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "menzelinsk__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639490,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -14949,21 +17008,126 @@
   },
   "mikun__respublika_komi": {
     "city": "Микунь",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 15.0,
+          "region": "IV"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "mikun__respublika_komi",
     "region": "Республика Коми",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638747,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
   "millerovo__rostovskaya_oblast": {
     "city": "Миллерово",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -36.0,
+        "dailyAmplitude": 7.0,
+        "durationLe0": 114,
+        "durationLe10": 193,
+        "durationLe8": 178,
+        "humidityCold": 85,
+        "humidityCold15": 80,
+        "maxWindJan": 6.4,
+        "meanLe0": -4.1,
+        "meanLe10": -0.4,
+        "meanLe8": -1.2,
+        "meanWindLe8": 4.0,
+        "precipNovMar": 198,
+        "prevailingWindDecFeb": "В",
+        "temp094": -10.0,
+        "tempColdest5days092": -21.0,
+        "tempColdest5days098": -23.0,
+        "tempColdestDay092": -26.0,
+        "tempColdestDay098": -29.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.29,
+        "loamy": 0.87,
+        "sandyCoarse": 1.14,
+        "sandyFine": 1.06
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": [
+        -5.8,
+        -5.3,
+        0.2,
+        9.4,
+        15.9,
+        20.1,
+        22.0,
+        21.3,
+        15.2,
+        8.0,
+        1.3,
+        -3.3,
+        8.3
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 42.0,
+        "barometric": 999,
+        "dailyAmplitude": 13.7,
+        "dailyMaxPrecip": 108,
+        "humidityWarm": 60,
+        "humidityWarm15": 42,
+        "meanMaxTempWarmMonth": 29.8,
+        "minWindJul": 0.0,
+        "precipAprOct": 313,
+        "prevailingWindJunAug": "СВ",
+        "temp095": 27.0,
+        "temp099": 30.0
+      }
+    },
+    "error": null,
     "id": "millerovo__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639701,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -15171,11 +17335,40 @@
   },
   "morozovsk__rostovskaya_oblast": {
     "city": "Морозовск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "morozovsk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639713,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -16582,11 +18775,40 @@
   },
   "novocherkassk__rostovskaya_oblast": {
     "city": "Новочеркасск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.85,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "novocherkassk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639725,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -16749,11 +18971,40 @@
   },
   "novoshakhtinsk__rostovskaya_oblast": {
     "city": "Новошахтинск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.8,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "novoshakhtinsk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639737,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -17023,11 +19274,40 @@
   },
   "nurlat__respublika_tatarstan": {
     "city": "Нурлат",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "nurlat__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639502,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -17111,11 +19391,87 @@
   },
   "nyurba__respublika_sakha_yakutiya": {
     "city": "Нюрба",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -62.0,
+        "dailyAmplitude": 7.6,
+        "durationLe0": 210,
+        "durationLe10": 270,
+        "durationLe8": 256,
+        "humidityCold": 76,
+        "humidityCold15": 76,
+        "maxWindJan": 2.7,
+        "meanLe0": -22.3,
+        "meanLe10": -16.2,
+        "meanLe8": -17.5,
+        "meanWindLe8": 2.0,
+        "precipNovMar": 62,
+        "prevailingWindDecFeb": "ЮЗ",
+        "temp094": -42.0,
+        "tempColdest5days092": -53.0,
+        "tempColdest5days098": -55.0,
+        "tempColdestDay092": -56.0,
+        "tempColdestDay098": -58.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 4.23,
+        "loamy": 2.86,
+        "sandyCoarse": 3.73,
+        "sandyFine": 3.48
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -34.9,
+        -30.6,
+        -18.8,
+        -5.4,
+        6.1,
+        14.9,
+        17.6,
+        13.6,
+        5.1,
+        -7.0,
+        -24.7,
+        -33.3,
+        -8.1
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 37.0,
+        "barometric": 1,
+        "dailyAmplitude": 12.6,
+        "dailyMaxPrecip": 88,
+        "humidityWarm": 67,
+        "humidityWarm15": 48,
+        "meanMaxTempWarmMonth": 23.5,
+        "minWindJul": 0.0,
+        "precipAprOct": 226,
+        "prevailingWindJunAug": "С,",
+        "temp095": 21.0,
+        "temp099": 25.0
+      }
+    },
+    "error": null,
     "id": "nyurba__respublika_sakha_yakutiya",
     "region": "Республика Саха (Якутия)",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639201,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -17489,11 +19845,87 @@
   },
   "olekminsk__respublika_sakha_yakutiya": {
     "city": "Олёкминск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -60.0,
+        "dailyAmplitude": 8.0,
+        "durationLe0": 202,
+        "durationLe10": 264,
+        "durationLe8": 251,
+        "humidityCold": 80,
+        "humidityCold15": 79,
+        "maxWindJan": 2.9,
+        "meanLe0": -19.7,
+        "meanLe10": -13.9,
+        "meanLe8": -15.1,
+        "meanWindLe8": 2.4,
+        "precipNovMar": 79,
+        "prevailingWindDecFeb": "З",
+        "temp094": -37.0,
+        "tempColdest5days092": -49.0,
+        "tempColdest5days098": -52.0,
+        "tempColdestDay092": -51.0,
+        "tempColdestDay098": -54.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 3.89,
+        "loamy": 2.63,
+        "sandyCoarse": 3.43,
+        "sandyFine": 3.2
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.17,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -31.0,
+        -26.4,
+        -15.1,
+        -2.9,
+        7.3,
+        15.5,
+        18.2,
+        14.6,
+        6.2,
+        -5.0,
+        -20.5,
+        -29.8,
+        -5.7
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 7
+      },
+      "warm": {
+        "absMax": 38.0,
+        "barometric": 989,
+        "dailyAmplitude": 13.2,
+        "dailyMaxPrecip": 80,
+        "humidityWarm": 69,
+        "humidityWarm15": 51,
+        "meanMaxTempWarmMonth": 25.1,
+        "minWindJul": 2.5,
+        "precipAprOct": 260,
+        "prevailingWindJunAug": "СВ",
+        "temp095": 22.0,
+        "temp099": 25.0
+      }
+    },
+    "error": null,
     "id": "olekminsk__respublika_sakha_yakutiya",
     "region": "Республика Саха (Якутия)",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639213,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -17538,11 +19970,87 @@
   },
   "olonets__respublika_kareliya": {
     "city": "Олонец",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -54.0,
+        "dailyAmplitude": 9.0,
+        "durationLe0": 148,
+        "durationLe10": 247,
+        "durationLe8": 226,
+        "humidityCold": 86,
+        "humidityCold15": 85,
+        "maxWindJan": 5.2,
+        "meanLe0": -5.9,
+        "meanLe10": -1.4,
+        "meanLe8": -2.4,
+        "meanWindLe8": 3.5,
+        "precipNovMar": 277,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -17.0,
+        "tempColdest5days092": -30.0,
+        "tempColdest5days098": -35.0,
+        "tempColdestDay092": -35.0,
+        "tempColdestDay098": -39.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.82,
+        "loamy": 1.23,
+        "sandyCoarse": 1.61,
+        "sandyFine": 1.5
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -8.8,
+        -8.6,
+        -3.9,
+        2.8,
+        9.6,
+        14.5,
+        17.3,
+        15.0,
+        9.7,
+        4.2,
+        -1.5,
+        -5.9,
+        3.7
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 36.0,
+        "barometric": 1,
+        "dailyAmplitude": 11.9,
+        "dailyMaxPrecip": 113,
+        "humidityWarm": 76,
+        "humidityWarm15": 59,
+        "meanMaxTempWarmMonth": 23.0,
+        "minWindJul": 3.3,
+        "precipAprOct": 449,
+        "prevailingWindJunAug": "З",
+        "temp095": 20.0,
+        "temp099": 24.0
+      }
+    },
+    "error": null,
     "id": "olonets__respublika_kareliya",
     "region": "Республика Карелия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638671,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -18468,11 +20976,87 @@
   },
   "pechora__respublika_komi": {
     "city": "Печора",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -55.0,
+        "dailyAmplitude": 8.0,
+        "durationLe0": 198,
+        "durationLe10": 284,
+        "durationLe8": 264,
+        "humidityCold": 79,
+        "humidityCold15": 78,
+        "maxWindJan": 4.3,
+        "meanLe0": -11.2,
+        "meanLe10": -6.2,
+        "meanLe8": -7.4,
+        "meanWindLe8": 3.2,
+        "precipNovMar": 205,
+        "prevailingWindDecFeb": "ЮВ",
+        "temp094": -26.0,
+        "tempColdest5days092": -43.0,
+        "tempColdest5days098": -47.0,
+        "tempColdestDay092": -47.0,
+        "tempColdestDay098": -50.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 2.9,
+        "loamy": 1.96,
+        "sandyCoarse": 2.56,
+        "sandyFine": 2.39
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 3.0,
+          "region": "VI"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -18.7,
+        -16.9,
+        -8.9,
+        -2.6,
+        4.4,
+        12.1,
+        16.1,
+        12.3,
+        6.7,
+        -0.8,
+        -9.8,
+        -14.9,
+        -1.8
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 35.0,
+        "barometric": 1,
+        "dailyAmplitude": 10.1,
+        "dailyMaxPrecip": 54,
+        "humidityWarm": 69,
+        "humidityWarm15": 57,
+        "meanMaxTempWarmMonth": 21.2,
+        "minWindJul": 3.6,
+        "precipAprOct": 410,
+        "prevailingWindJunAug": "С",
+        "temp095": 19.0,
+        "temp099": 24.0
+      }
+    },
+    "error": null,
     "id": "pechora__respublika_komi",
     "region": "Республика Коми",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638757,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
@@ -19042,11 +21626,40 @@
   },
   "pitkyaranta__respublika_kareliya": {
     "city": "Питкяранта",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "pitkyaranta__respublika_kareliya",
     "region": "Республика Карелия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638682,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -19258,11 +21871,40 @@
   },
   "pokrovsk__respublika_sakha_yakutiya": {
     "city": "Покровск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 6,
+        "mapB": 6,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "pokrovsk__respublika_sakha_yakutiya",
     "region": "Республика Саха (Якутия)",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639224,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -19803,11 +22445,40 @@
   },
   "proletarsk__rostovskaya_oblast": {
     "city": "Пролетарск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "proletarsk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639748,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -20399,11 +23070,40 @@
   },
   "ruzaevka__respublika_mordoviya": {
     "city": "Рузаевка",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "ruzaevka__respublika_mordoviya",
     "region": "Республика Мордовия",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639133,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -20535,11 +23235,40 @@
   },
   "saki__respublika_krym": {
     "city": "Саки",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 7,
+        "mapB": 7,
+        "mapC": 8
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "saki__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638919,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -20623,11 +23352,40 @@
   },
   "salsk__rostovskaya_oblast": {
     "city": "Сальск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "salsk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639760,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -20809,11 +23567,40 @@
   },
   "segezha__respublika_kareliya": {
     "city": "Сегежа",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "segezha__respublika_kareliya",
     "region": "Республика Карелия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638693,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -20897,11 +23684,40 @@
   },
   "semikarakorsk__rostovskaya_oblast": {
     "city": "Семикаракорск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "semikarakorsk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639772,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -21151,11 +23967,40 @@
   },
   "sevastopol__respublika_krym": {
     "city": "Севастополь",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "sevastopol__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638930,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -21259,11 +24104,40 @@
   },
   "shakhty__rostovskaya_oblast": {
     "city": "Шахты",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.8,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "shakhty__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639796,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -21549,11 +24423,40 @@
   },
   "shchelkino__respublika_krym": {
     "city": "Щёлкино",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "shchelkino__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638986,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -22237,11 +25140,87 @@
   },
   "simferopol__respublika_krym": {
     "city": "Симферополь",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -30.0,
+        "dailyAmplitude": 7.2,
+        "durationLe0": 22,
+        "durationLe10": 174,
+        "durationLe8": 153,
+        "humidityCold": 83,
+        "humidityCold15": 74,
+        "maxWindJan": 6.2,
+        "meanLe0": -0.2,
+        "meanLe10": 3.5,
+        "meanLe8": 2.8,
+        "meanWindLe8": 4.9,
+        "precipNovMar": 203,
+        "prevailingWindDecFeb": "СВ",
+        "temp094": -3.0,
+        "tempColdest5days092": -13.0,
+        "tempColdest5days098": -16.0,
+        "tempColdestDay092": -18.0,
+        "tempColdestDay098": -21.0
+      },
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        0.2,
+        0.8,
+        4.2,
+        10.2,
+        15.4,
+        19.8,
+        22.4,
+        22.1,
+        17.1,
+        11.3,
+        6.2,
+        2.4,
+        11.0
+      ],
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {
+        "absMax": 40.0,
+        "barometric": 994,
+        "dailyAmplitude": 12.9,
+        "dailyMaxPrecip": 119,
+        "humidityWarm": 62,
+        "humidityWarm15": 42,
+        "meanMaxTempWarmMonth": 30.0,
+        "minWindJul": 4.0,
+        "precipAprOct": 307,
+        "prevailingWindJunAug": "В",
+        "temp095": 27.0,
+        "temp099": 29.0
+      }
+    },
+    "error": null,
     "id": "simferopol__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638942,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -22993,11 +25972,40 @@
   },
   "sosnogorsk__respublika_komi": {
     "city": "Сосногорск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "sosnogorsk__respublika_komi",
     "region": "Республика Коми",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638768,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -23238,11 +26246,87 @@
   },
   "srednekolymsk__respublika_sakha_yakutiya": {
     "city": "Среднеколымск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -58.0,
+        "dailyAmplitude": 6.2,
+        "durationLe0": 229,
+        "durationLe10": 293,
+        "durationLe8": 277,
+        "humidityCold": 76,
+        "humidityCold15": 76,
+        "maxWindJan": 2.0,
+        "meanLe0": -23.6,
+        "meanLe10": -17.2,
+        "meanLe8": -18.7,
+        "meanWindLe8": 1.6,
+        "precipNovMar": 72,
+        "prevailingWindDecFeb": "ЮЗ",
+        "temp094": -40.0,
+        "tempColdest5days092": -49.0,
+        "tempColdest5days098": -53.0,
+        "tempColdestDay092": -51.0,
+        "tempColdestDay098": -53.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 4.52,
+        "loamy": 3.06,
+        "sandyCoarse": 3.99,
+        "sandyFine": 3.72
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -35.6,
+        -33.5,
+        -25.2,
+        -12.8,
+        1.7,
+        11.8,
+        14.7,
+        10.8,
+        3.5,
+        -10.1,
+        -25.5,
+        -33.8,
+        -11.2
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 37.0,
+        "barometric": 1,
+        "dailyAmplitude": 10.7,
+        "dailyMaxPrecip": 62,
+        "humidityWarm": 66,
+        "humidityWarm15": 54,
+        "meanMaxTempWarmMonth": 20.4,
+        "minWindJul": 2.6,
+        "precipAprOct": 177,
+        "prevailingWindJunAug": "СВ",
+        "temp095": 18.0,
+        "temp099": 22.0
+      }
+    },
+    "error": null,
     "id": "srednekolymsk__respublika_sakha_yakutiya",
     "region": "Республика Саха (Якутия)",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639236,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -23385,11 +26469,40 @@
   },
   "staryy_krym__respublika_krym": {
     "city": "Старый Крым",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 8,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "staryy_krym__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638953,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -23600,11 +26713,40 @@
   },
   "sudak__respublika_krym": {
     "city": "Судак",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 8,
+        "mapB": 9,
+        "mapC": 9
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "sudak__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638964,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -23745,11 +26887,40 @@
   },
   "suoyarvi__respublika_kareliya": {
     "city": "Суоярви",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 2.5,
+          "region": "V"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "suoyarvi__respublika_kareliya",
     "region": "Республика Карелия",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638703,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -24645,11 +27816,87 @@
   },
   "temnikov__respublika_mordoviya": {
     "city": "Темников",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -43.0,
+        "dailyAmplitude": 7.4,
+        "durationLe0": 141,
+        "durationLe10": 217,
+        "durationLe8": 200,
+        "humidityCold": 84,
+        "humidityCold15": 79,
+        "maxWindJan": 3.8,
+        "meanLe0": -6.3,
+        "meanLe10": -2.3,
+        "meanLe8": -3.2,
+        "meanWindLe8": 2.9,
+        "precipNovMar": 172,
+        "prevailingWindDecFeb": "З",
+        "temp094": -14.0,
+        "tempColdest5days092": -27.0,
+        "tempColdest5days098": -30.0,
+        "tempColdestDay092": -32.0,
+        "tempColdestDay098": -37.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.84,
+        "loamy": 1.25,
+        "sandyCoarse": 1.63,
+        "sandyFine": 1.52
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -9.1,
+        -8.6,
+        -3.0,
+        6.4,
+        13.7,
+        17.5,
+        19.5,
+        17.7,
+        11.7,
+        5.0,
+        -1.9,
+        -6.8,
+        5.2
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 40.0,
+        "barometric": 1,
+        "dailyAmplitude": 12.4,
+        "dailyMaxPrecip": 107,
+        "humidityWarm": 71,
+        "humidityWarm15": 53,
+        "meanMaxTempWarmMonth": 26.4,
+        "minWindJul": 2.7,
+        "precipAprOct": 378,
+        "prevailingWindJunAug": "З",
+        "temp095": 24.0,
+        "temp099": 27.0
+      }
+    },
+    "error": null,
     "id": "temnikov__respublika_mordoviya",
     "region": "Республика Мордовия",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639145,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -24733,11 +27980,40 @@
   },
   "tetyushi__respublika_respublika_tatarstan": {
     "city": "Тетюши",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "tetyushi__respublika_respublika_tatarstan",
     "region": "Республика Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639167,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -24966,11 +28242,87 @@
   },
   "tommot__respublika_sakha_yakutiya": {
     "city": "Томмот",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -60.0,
+        "dailyAmplitude": 9.1,
+        "durationLe0": 205,
+        "durationLe10": 269,
+        "durationLe8": 254,
+        "humidityCold": 76,
+        "humidityCold15": 74,
+        "maxWindJan": 2.0,
+        "meanLe0": -21.8,
+        "meanLe10": -15.4,
+        "meanLe8": -16.8,
+        "meanWindLe8": 0.7,
+        "precipNovMar": 100,
+        "prevailingWindDecFeb": "СЗ",
+        "temp094": -41.0,
+        "tempColdest5days092": -50.0,
+        "tempColdest5days098": -52.0,
+        "tempColdestDay092": -52.0,
+        "tempColdestDay098": -54.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 4.13,
+        "loamy": 2.79,
+        "sandyCoarse": 3.64,
+        "sandyFine": 3.4
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -34.1,
+        -29.5,
+        -17.9,
+        -4.0,
+        6.6,
+        14.6,
+        17.3,
+        13.7,
+        5.5,
+        -6.3,
+        -23.2,
+        -32.6,
+        -7.5
+      ],
+      "seismic": {
+        "mapA": 7,
+        "mapB": 7,
+        "mapC": 9
+      },
+      "warm": {
+        "absMax": 38.0,
+        "barometric": 981,
+        "dailyAmplitude": 14.2,
+        "dailyMaxPrecip": 64,
+        "humidityWarm": 74,
+        "humidityWarm15": 51,
+        "meanMaxTempWarmMonth": 24.5,
+        "minWindJul": 0.0,
+        "precipAprOct": 381,
+        "prevailingWindJunAug": "С,",
+        "temp095": 22.0,
+        "temp099": 26.0
+      }
+    },
+    "error": null,
     "id": "tommot__respublika_sakha_yakutiya",
     "region": "Республика Саха (Якутия)",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639248,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -25305,11 +28657,40 @@
   },
   "tsimlyansk__rostovskaya_oblast": {
     "city": "Цимлянск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "tsimlyansk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639784,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -25806,11 +29187,40 @@
   },
   "udachnyy__respublika_sakha_yakutiya": {
     "city": "Удачный",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 15.0,
+          "region": "IV"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "udachnyy__respublika_sakha_yakutiya",
     "region": "Республика Саха (Якутия)",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639260,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -26938,21 +30348,173 @@
   },
   "vilyuysk__respublika_sakha_yakutiya": {
     "city": "Вилюйск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -61.0,
+        "dailyAmplitude": 7.9,
+        "durationLe0": 210,
+        "durationLe10": 268,
+        "durationLe8": 255,
+        "humidityCold": 73,
+        "humidityCold15": 73,
+        "maxWindJan": 2.0,
+        "meanLe0": -22.8,
+        "meanLe10": -16.8,
+        "meanLe8": -18.1,
+        "meanWindLe8": 1.8,
+        "precipNovMar": 63,
+        "prevailingWindDecFeb": "З",
+        "temp094": -41.0,
+        "tempColdest5days092": -51.0,
+        "tempColdest5days098": -54.0,
+        "tempColdestDay092": -54.0,
+        "tempColdestDay098": -57.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 4.27,
+        "loamy": 2.89,
+        "sandyCoarse": 3.77,
+        "sandyFine": 3.52
+      },
+      "loads": {
+        "ice": {
+          "mm": 3.0,
+          "region": "I"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -36.0,
+        -30.9,
+        -18.4,
+        -5.3,
+        6.2,
+        15.8,
+        18.8,
+        14.5,
+        5.6,
+        -7.2,
+        -25.5,
+        -34.6,
+        -8.1
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 38.0,
+        "barometric": 1,
+        "dailyAmplitude": 12.3,
+        "dailyMaxPrecip": 71,
+        "humidityWarm": 58,
+        "humidityWarm15": 44,
+        "meanMaxTempWarmMonth": 25.1,
+        "minWindJul": 2.3,
+        "precipAprOct": 222,
+        "prevailingWindJunAug": "С",
+        "temp095": 22.0,
+        "temp099": 26.0
+      }
+    },
+    "error": null,
     "id": "vilyuysk__respublika_sakha_yakutiya",
     "region": "Республика Саха (Якутия)",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639190,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
   "vladikavkaz__respublika_severnaya_osetiya_alaniya": {
     "city": "Владикавказ",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -28.0,
+        "dailyAmplitude": 9.0,
+        "durationLe0": 78,
+        "durationLe10": 185,
+        "durationLe8": 165,
+        "humidityCold": 79,
+        "humidityCold15": 70,
+        "maxWindJan": 2.1,
+        "meanLe0": -1.7,
+        "meanLe10": 1.9,
+        "meanLe8": 1.1,
+        "meanWindLe8": 1.3,
+        "precipNovMar": 190,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -5.0,
+        "tempColdest5days092": -15.0,
+        "tempColdest5days098": -19.0,
+        "tempColdestDay092": -19.0,
+        "tempColdestDay098": -21.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 0.71,
+        "loamy": 0.48,
+        "sandyCoarse": 0.63,
+        "sandyFine": 0.59
+      },
+      "loads": {
+        "ice": {
+          "mm": 20.0,
+          "region": "V"
+        },
+        "snow": {
+          "kpa": 0.65,
+          "region": "I"
+        },
+        "wind": {
+          "kpa": 0.48,
+          "region": "IV"
+        }
+      },
+      "monthlyTemps": [
+        -2.4,
+        -1.5,
+        3.0,
+        9.7,
+        14.4,
+        18.3,
+        20.7,
+        20.3,
+        15.7,
+        9.8,
+        3.8,
+        -0.5,
+        9.3
+      ],
+      "seismic": {
+        "mapA": 9,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 936,
+        "dailyAmplitude": 10.8,
+        "dailyMaxPrecip": 131,
+        "humidityWarm": 71,
+        "humidityWarm15": 56,
+        "meanMaxTempWarmMonth": 27.4,
+        "minWindJul": 0.0,
+        "precipAprOct": 731,
+        "prevailingWindJunAug": "Ю",
+        "temp095": 25.0,
+        "temp099": 27.0
+      }
+    },
+    "error": null,
     "id": "vladikavkaz__respublika_severnaya_osetiya_alaniya",
     "region": "Республика Северная Осетия - Алания",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639294,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -26968,11 +30530,40 @@
   },
   "volgodonsk__rostovskaya_oblast": {
     "city": "Волгодонск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.85,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "volgodonsk__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639608,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -27144,11 +30735,40 @@
   },
   "volzhsk__respublika_mariy_el": {
     "city": "Волжск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 7
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "volzhsk__respublika_mariy_el",
     "region": "Республика Марий Эл",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777639051,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -27281,11 +30901,40 @@
   },
   "vuktyl__respublika_komi": {
     "city": "Вуктыл",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 3.0,
+          "region": "VI"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "vuktyl__respublika_komi",
     "region": "Республика Коми",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638714,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -27688,11 +31337,85 @@
   },
   "yalta__respublika_krym": {
     "city": "Ялта",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {
+        "absMin": -15.0,
+        "dailyAmplitude": 5.6,
+        "durationLe10": 154,
+        "durationLe8": 127,
+        "humidityCold": 75,
+        "humidityCold15": 72,
+        "maxWindJan": 3.5,
+        "meanLe10": 5.9,
+        "meanLe8": 5.3,
+        "meanWindLe8": 2.2,
+        "precipNovMar": 342,
+        "prevailingWindDecFeb": "З",
+        "temp094": 2.0,
+        "tempColdest5days092": -4.0,
+        "tempColdest5days098": -5.0,
+        "tempColdestDay092": -7.0,
+        "tempColdestDay098": -9.0
+      },
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 0.5,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": [
+        4.8,
+        4.8,
+        7.4,
+        11.3,
+        16.7,
+        22.1,
+        25.6,
+        25.8,
+        20.4,
+        15.2,
+        10.2,
+        6.4,
+        14.2
+      ],
+      "seismic": {
+        "mapA": 8,
+        "mapB": 9,
+        "mapC": 10
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 1,
+        "dailyAmplitude": 8.3,
+        "dailyMaxPrecip": 189,
+        "humidityWarm": 61,
+        "humidityWarm15": 56,
+        "meanMaxTempWarmMonth": 29.4,
+        "minWindJul": 1.2,
+        "precipAprOct": 271,
+        "prevailingWindJunAug": "З",
+        "temp095": 27.0,
+        "temp099": 31.0
+      }
+    },
+    "error": null,
     "id": "yalta__respublika_krym",
     "region": "Республика Крым",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777638997,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -28273,11 +31996,40 @@
   },
   "zainsk__respublika_tatarstan": {
     "city": "Заинск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "zainsk__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639421,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
@@ -28703,11 +32455,40 @@
   },
   "zelenodolsk__respublika_tatarstan": {
     "city": "Зеленодольск",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "zelenodolsk__respublika_tatarstan",
     "region": "Республика Татарстан",
-    "scrapedAt": 1777635990,
+    "scrapedAt": 1777639432,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -28840,11 +32621,40 @@
   },
   "zernograd__rostovskaya_oblast": {
     "city": "Зерноград",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "zernograd__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639655,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
@@ -29577,21 +33387,79 @@
   },
   "zvenigovo__respublika_mariy_el": {
     "city": "Звенигово",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 6,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "zvenigovo__respublika_mariy_el",
     "region": "Республика Марий ЭЛ",
-    "scrapedAt": 1777635989,
+    "scrapedAt": 1777639024,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
   "zverevo__rostovskaya_oblast": {
     "city": "Зверево",
-    "data": null,
-    "error": "Error('Page crashed')",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 10.0,
+          "region": "III"
+        },
+        "snow": {
+          "kpa": 1.0,
+          "region": "II"
+        },
+        "wind": {
+          "kpa": 0.38,
+          "region": "III"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
     "id": "zverevo__rostovskaya_oblast",
     "region": "Ростовская область",
-    "scrapedAt": 1777635991,
+    "scrapedAt": 1777639643,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   }
