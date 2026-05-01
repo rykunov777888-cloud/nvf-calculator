@@ -70,16 +70,7 @@ def make_geo_key(city: str, region: str) -> str:
     return f"{city}||{region}"
 
 
-def _round_sg(kpa: float | None) -> float | None:
-    """Snap exact Sg to its standard district value."""
-    if kpa is None:
-        return None
-    table = [
-        (0.5, "I"), (1.0, "II"), (1.5, "III"), (2.0, "IV"),
-        (2.5, "V"), (3.0, "VI"), (3.5, "VII"), (4.0, "VIII"),
-    ]
-    best = min(table, key=lambda kv: abs(kv[0] - kpa))
-    return best[0]
+# Без округления: точное значение Sg — важна точность расчёта.
 
 
 def build_records() -> list[dict[str, Any]]:
@@ -122,11 +113,9 @@ def build_records() -> list[dict[str, Any]]:
         ese_snow_region = ese_snow.get("region")
 
         if ese_snow_region and ese_snow_kpa is not None:
-            sg_district = _round_sg(ese_snow_kpa)
             snow_block = {
                 "region": ese_snow_region,
-                "sgKpa": sg_district,
-                "sgKpaExact": ese_snow_kpa,
+                "sgKpa": ese_snow_kpa,
                 "source": SOURCE_ESE,
                 "status": "verified",
             }
@@ -134,7 +123,6 @@ def build_records() -> list[dict[str, Any]]:
             snow_block = {
                 "region": c.get("snow_region"),
                 "sgKpa": c.get("sg_kpa"),
-                "sgKpaExact": None,
                 "source": SOURCE_LSK,
                 "status": "from_sp20_appendix_k",
             }
@@ -142,22 +130,16 @@ def build_records() -> list[dict[str, Any]]:
             snow_block = {
                 "region": None,
                 "sgKpa": None,
-                "sgKpaExact": None,
                 "source": SOURCE_LSK,
                 "status": "requires_verification",
             }
 
-        # cross-check: does ese match lsk?
+        # cross-check: does ese match lsk on the snow district?
+        # Sg from ese.pro is exact (station value), so kpa comparison would
+        # almost always fail; we compare at the district level (СП 20 район).
         snow_match = None
-        if (
-            c.get("sg_kpa") is not None
-            and ese_snow_region is not None
-            and snow_block["sgKpa"] is not None
-        ):
-            snow_match = (
-                c.get("snow_region") == ese_snow_region
-                and abs(c["sg_kpa"] - snow_block["sgKpa"]) < 0.01
-            )
+        if c.get("snow_region") and ese_snow_region:
+            snow_match = c["snow_region"] == ese_snow_region
 
         # ── wind ─────────────────────────────────────────────────────────
         wind = ese_data.get("loads", {}).get("wind", {}) or {}
@@ -277,20 +259,12 @@ def build_records() -> list[dict[str, Any]]:
         comment_parts: list[str] = []
         if snow_match is False:
             comment_parts.append(
-                f"⚠ Расхождение Sg: lsk-lskos {c.get('snow_region')}/{c.get('sg_kpa')} vs "
-                f"ese.pro {ese_snow_region}/{snow_block['sgKpa']}"
+                f"⚠ Снеговой район расходится: lsk-lskos {c.get('snow_region')} (Sg={c.get('sg_kpa')}) "
+                f"vs ese.pro {ese_snow_region} (Sg={snow_block['sgKpa']})"
             )
         elif snow_match is True:
-            comment_parts.append("Sg сверено с lsk-lskos и ese.pro — совпадает")
+            comment_parts.append("Снеговой район сверен: lsk-lskos и ese.pro совпадают")
 
-        if (
-            snow_block["sgKpa"] is not None
-            and snow_block.get("sgKpaExact") is not None
-            and abs(snow_block["sgKpaExact"] - snow_block["sgKpa"]) > 0.01
-        ):
-            comment_parts.append(
-                f"Sg уточнённое ese.pro: {snow_block['sgKpaExact']} кПа"
-            )
 
         rec = {
             "id": sid,
@@ -356,7 +330,7 @@ def autosize(ws, min_w: int = 10, max_w: int = 40) -> None:
 MASTER_HEADERS = [
     "id", "country", "region", "settlement",
     "lat", "lon",
-    "snow_region", "sg_kpa", "sg_kpa_exact", "snow_source", "snow_status",
+    "snow_region", "sg_kpa", "snow_source", "snow_status",
     "wind_region", "w0_kpa", "wind_source", "wind_status",
     "ice_region", "ice_thickness_mm", "ice_source", "ice_status",
     "seismic_points", "seismic_points_b", "seismic_points_c",
@@ -387,7 +361,7 @@ EXTRAS_HEADERS = [
 CROSSCHECK_HEADERS = [
     "id", "settlement", "region",
     "lsk_snow_region", "lsk_sg_kpa",
-    "ese_snow_region", "ese_sg_kpa", "ese_sg_kpa_exact",
+    "ese_snow_region", "ese_sg_kpa",
     "match",
 ]
 
@@ -398,7 +372,7 @@ def row_master(s: dict[str, Any]) -> list[Any]:
     return [
         s["id"], s["country"], s["region"], s["settlement"],
         coords.get("lat"), coords.get("lon"),
-        s["snow"]["region"], s["snow"]["sgKpa"], s["snow"].get("sgKpaExact"),
+        s["snow"]["region"], s["snow"]["sgKpa"],
         s["snow"]["source"], s["snow"]["status"],
         s["wind"]["region"], s["wind"]["w0Kpa"],
         s["wind"]["source"], s["wind"]["status"],
@@ -465,7 +439,7 @@ def build_crosscheck(records: list[dict[str, Any]]) -> list[list[Any]]:
         rows.append([
             r["id"], r["settlement"], r["region"],
             lsk.get("snow_region"), lsk.get("sg_kpa"),
-            ese_region, ese_kpa, snow.get("sgKpaExact"),
+            ese_region, ese_kpa,
             match,
         ])
     return rows
