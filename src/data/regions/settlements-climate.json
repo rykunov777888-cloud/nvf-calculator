@@ -7,7 +7,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.45,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -115,7 +115,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.3,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -147,7 +147,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 1.3 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 0.91,
       "sandyFine": 1.11,
@@ -223,7 +223,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.2,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -255,7 +255,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Базовая запись из ТЗ. Sg уточнённое ese.pro: 1.2 кПа",
+    "comment": "Контрольный город. Базовая запись из ТЗ.",
     "frostDepth": {
       "loamy": 1.63,
       "sandyFine": 1.99,
@@ -331,7 +331,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.35,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -363,7 +363,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 1.35 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 1.53,
       "sandyFine": 1.87,
@@ -439,7 +439,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.5,
+      "sgKpa": 2.3,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -471,7 +471,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 2.3 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 1.38,
       "sandyFine": 1.68,
@@ -547,7 +547,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -579,7 +579,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 1.6 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 1.8,
       "sandyFine": 2.19,
@@ -655,7 +655,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.5,
+      "sgKpa": 1.1,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -687,7 +687,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 1.1 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "coldPeriod": {
       "tempColdestDay098": -22.0,
       "tempColdestDay092": -19.0,
@@ -755,7 +755,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 2.0,
+      "sgKpa": 1.95,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -787,7 +787,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 1.95 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 1.54,
       "sandyFine": 1.88,
@@ -863,7 +863,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 2.5,
+      "sgKpa": 2.45,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -895,7 +895,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016 — требует сверки (граница IV/V). Sg уточнённое ese.pro: 2.45 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016 — требует сверки (граница IV/V).",
     "frostDepth": {
       "loamy": 1.53,
       "sandyFine": 1.86,
@@ -971,7 +971,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -1003,7 +1003,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 1.6 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 1.34,
       "sandyFine": 1.63,
@@ -1079,7 +1079,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.85,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -1111,7 +1111,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 0.85 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 0.61,
       "sandyFine": 0.75,
@@ -1187,7 +1187,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -1219,7 +1219,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 1.6 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 1.69,
       "sandyFine": 2.06,
@@ -1295,7 +1295,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.35,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -1327,7 +1327,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016. Sg уточнённое ese.pro: 1.35 кПа",
+    "comment": "Контрольный город. Снег по прил. К СП 20.13330.2016.",
     "frostDepth": {
       "loamy": 1.79,
       "sandyFine": 2.18,
@@ -1511,7 +1511,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.7,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -1543,7 +1543,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Контрольный город. Сейсмика требует сверки по СП 14.13330. Sg уточнённое ese.pro: 0.7 кПа",
+    "comment": "Контрольный город. Сейсмика требует сверки по СП 14.13330.",
     "frostDepth": {
       "loamy": 2.99,
       "sandyFine": 3.64,
@@ -1619,7 +1619,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.5,
+      "sgKpa": 2.1,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -1651,7 +1651,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.1 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.26,
       "sandyFine": 1.53,
@@ -1727,7 +1727,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.35,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -1759,7 +1759,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.35 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.71,
       "sandyFine": 2.08,
@@ -1835,7 +1835,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.55,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -1867,7 +1867,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.55 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.99,
       "sandyFine": 1.21,
@@ -2051,7 +2051,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2083,7 +2083,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.4 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.15,
       "sandyFine": 1.39,
@@ -2159,7 +2159,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.65,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2191,7 +2191,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.65 кПа"
+    "comment": ""
   },
   {
     "id": "izhevsk",
@@ -2201,7 +2201,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 2.5,
+      "sgKpa": 2.15,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2233,7 +2233,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.15 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.53,
       "sandyFine": 1.86,
@@ -2309,7 +2309,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.55,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2341,7 +2341,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.55 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.72,
       "sandyFine": 2.1,
@@ -2417,7 +2417,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 1.5,
+      "sgKpa": 1.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2449,7 +2449,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.4 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.38,
       "sandyFine": 1.68,
@@ -2525,7 +2525,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.5,
+      "sgKpa": 1.05,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2557,7 +2557,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.05 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.81,
       "sandyFine": 2.21,
@@ -2633,7 +2633,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.5,
+      "sgKpa": 1.1,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2665,7 +2665,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.1 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.87,
       "sandyFine": 2.28,
@@ -2741,7 +2741,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2773,7 +2773,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.26,
       "sandyFine": 1.53,
@@ -2849,7 +2849,7 @@
     "settlementType": "город",
     "snow": {
       "region": "I",
-      "sgKpa": 1.0,
+      "sgKpa": 0.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2881,7 +2881,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.6 кПа",
+    "comment": "",
     "coldPeriod": {
       "tempColdestDay098": -23.0,
       "tempColdestDay092": -20.0,
@@ -2949,7 +2949,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -2981,7 +2981,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.25 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.49,
       "sandyFine": 1.81,
@@ -3057,7 +3057,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -3089,7 +3089,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа"
+    "comment": ""
   },
   {
     "id": "ryazan",
@@ -3099,7 +3099,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.55,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -3131,7 +3131,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.55 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.15,
       "sandyFine": 1.41,
@@ -3207,7 +3207,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.5,
+      "sgKpa": 2.15,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -3239,7 +3239,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.15 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.83,
       "sandyFine": 2.22,
@@ -3315,7 +3315,7 @@
     "settlementType": "город",
     "snow": {
       "region": "I",
-      "sgKpa": 0.5,
+      "sgKpa": 0.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -3347,7 +3347,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.4 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.72,
       "sandyFine": 0.87,
@@ -3423,7 +3423,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.45,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -3455,7 +3455,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.45 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.27,
       "sandyFine": 1.55,
@@ -3639,7 +3639,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.5,
+      "sgKpa": 2.1,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -3671,7 +3671,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.1 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.48,
       "sandyFine": 1.8,
@@ -3747,7 +3747,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.95,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -3779,7 +3779,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.95 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.38,
       "sandyFine": 1.68,
@@ -3855,7 +3855,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -3887,7 +3887,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.8 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.39,
       "sandyFine": 0.48,
@@ -4071,7 +4071,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -4103,7 +4103,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.25 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.99,
       "sandyFine": 1.21,
@@ -4179,7 +4179,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.95,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -4211,7 +4211,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.95 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.51,
       "sandyFine": 0.63,
@@ -4395,7 +4395,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.3,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -4427,7 +4427,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.3 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.72,
       "sandyFine": 2.09,
@@ -4503,7 +4503,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.85,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -4535,7 +4535,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.85 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.22,
       "sandyFine": 1.48,
@@ -4611,7 +4611,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.9,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -4643,7 +4643,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.9 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.09,
       "sandyFine": 1.33,
@@ -4719,7 +4719,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -4751,7 +4751,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.6 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.01,
       "sandyFine": 1.22,
@@ -4827,7 +4827,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -4859,7 +4859,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.6 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.98,
       "sandyFine": 1.19,
@@ -4935,7 +4935,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -4967,7 +4967,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.6 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.13,
       "sandyFine": 1.37,
@@ -5043,7 +5043,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5075,7 +5075,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.5,
       "sandyFine": 1.83,
@@ -5151,7 +5151,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 3.5,
+      "sgKpa": 3.2,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5183,7 +5183,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 3.2 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.42,
       "sandyFine": 1.73,
@@ -5259,7 +5259,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.7,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5291,7 +5291,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.7 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.26,
       "sandyFine": 1.54,
@@ -5367,7 +5367,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 2.5,
+      "sgKpa": 2.45,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5399,7 +5399,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.45 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.62,
       "sandyFine": 1.97,
@@ -5475,7 +5475,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.65,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5507,7 +5507,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.65 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.37,
       "sandyFine": 1.66,
@@ -5583,7 +5583,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.85,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5615,7 +5615,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.85 кПа"
+    "comment": ""
   },
   {
     "id": "kostroma",
@@ -5625,7 +5625,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5657,7 +5657,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.28,
       "sandyFine": 1.56,
@@ -5733,7 +5733,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.7,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5765,7 +5765,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.7 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.27,
       "sandyFine": 1.55,
@@ -5883,7 +5883,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.55,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -5915,7 +5915,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.55 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.9,
       "sandyFine": 1.1,
@@ -5991,7 +5991,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6023,7 +6023,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.4 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.15,
       "sandyFine": 1.4,
@@ -6099,7 +6099,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6131,7 +6131,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.6 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.32,
       "sandyFine": 1.61,
@@ -6207,7 +6207,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6239,7 +6239,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.41,
       "sandyFine": 1.72,
@@ -6315,7 +6315,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.5,
+      "sgKpa": 2.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6347,7 +6347,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.25 кПа"
+    "comment": ""
   },
   {
     "id": "magnitogorsk",
@@ -6357,7 +6357,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.3,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6389,7 +6389,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.3 кПа"
+    "comment": ""
   },
   {
     "id": "nizhny_tagil",
@@ -6507,7 +6507,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6539,7 +6539,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 2.05,
       "sandyFine": 2.5,
@@ -6615,7 +6615,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.95,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6647,7 +6647,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.95 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.96,
       "sandyFine": 2.38,
@@ -6831,7 +6831,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 3.0,
+      "sgKpa": 2.55,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6863,7 +6863,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.55 кПа"
+    "comment": ""
   },
   {
     "id": "noyabrsk",
@@ -6915,7 +6915,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -6947,7 +6947,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.81,
       "sandyFine": 2.2,
@@ -7239,7 +7239,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.9,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -7271,7 +7271,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.9 кПа"
+    "comment": ""
   },
   {
     "id": "chita",
@@ -7281,7 +7281,7 @@
     "settlementType": "город",
     "snow": {
       "region": "I",
-      "sgKpa": 0.5,
+      "sgKpa": 0.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -7313,7 +7313,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.4 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 2.17,
       "sandyFine": 2.64,
@@ -7497,7 +7497,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.95,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -7529,7 +7529,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.95 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.98,
       "sandyFine": 2.41,
@@ -7605,7 +7605,7 @@
     "settlementType": "город",
     "snow": {
       "region": "VII",
-      "sgKpa": 4.0,
+      "sgKpa": 3.85,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -7637,7 +7637,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 3.85 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.44,
       "sandyFine": 1.75,
@@ -7713,7 +7713,7 @@
     "settlementType": "город",
     "snow": {
       "region": "VIII",
-      "sgKpa": 4.0,
+      "sgKpa": 4.1,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -7745,7 +7745,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 4.1 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.08,
       "sandyFine": 1.32,
@@ -7929,7 +7929,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 1.5,
+      "sgKpa": 1.35,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -7961,7 +7961,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.35 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.96,
       "sandyFine": 2.39,
@@ -8145,7 +8145,7 @@
     "settlementType": "город",
     "snow": {
       "region": "I",
-      "sgKpa": 1.0,
+      "sgKpa": 0.65,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -8177,7 +8177,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.65 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.48,
       "sandyFine": 0.59,
@@ -8253,7 +8253,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -8285,7 +8285,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.6 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.51,
       "sandyFine": 0.62,
@@ -8361,7 +8361,7 @@
     "settlementType": "город",
     "snow": {
       "region": "I",
-      "sgKpa": 0.5,
+      "sgKpa": 0.45,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -8393,7 +8393,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.45 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.44,
       "sandyFine": 0.53,
@@ -8511,7 +8511,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.7,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -8543,7 +8543,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.7 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.76,
       "sandyFine": 0.92,
@@ -8619,7 +8619,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.9,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -8651,7 +8651,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.9 кПа",
+    "comment": "",
     "coldPeriod": {
       "tempColdestDay098": -21.0,
       "tempColdestDay092": -19.0,
@@ -8961,7 +8961,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.85,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -8993,7 +8993,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.85 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.57,
       "sandyFine": 0.7,
@@ -9069,7 +9069,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 2.5,
+      "sgKpa": 2.3,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9101,7 +9101,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.3 кПа"
+    "comment": ""
   },
   {
     "id": "bratsk",
@@ -9111,7 +9111,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9143,7 +9143,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.25 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.93,
       "sandyFine": 2.35,
@@ -9219,7 +9219,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9251,7 +9251,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.25 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 2.11,
       "sandyFine": 2.57,
@@ -9327,7 +9327,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.0,
+      "sgKpa": 0.7,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9359,7 +9359,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 0.7 кПа"
+    "comment": ""
   },
   {
     "id": "nakhodka",
@@ -9411,7 +9411,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 2.5,
+      "sgKpa": 2.45,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9443,7 +9443,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.45 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.62,
       "sandyFine": 1.97,
@@ -9519,7 +9519,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.85,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9551,7 +9551,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.85 кПа"
+    "comment": ""
   },
   {
     "id": "miass",
@@ -9561,7 +9561,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.1,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9593,7 +9593,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.1 кПа"
+    "comment": ""
   },
   {
     "id": "kopeysk",
@@ -9603,7 +9603,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.2,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9635,7 +9635,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.2 кПа"
+    "comment": ""
   },
   {
     "id": "kamensk_uralsky",
@@ -9645,7 +9645,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9677,7 +9677,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.25 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.62,
       "sandyFine": 1.98,
@@ -9753,7 +9753,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9785,7 +9785,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.4 кПа"
+    "comment": ""
   },
   {
     "id": "serov",
@@ -9795,7 +9795,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.55,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9827,7 +9827,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.55 кПа"
+    "comment": ""
   },
   {
     "id": "nefteyugansk",
@@ -9837,7 +9837,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9869,7 +9869,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа"
+    "comment": ""
   },
   {
     "id": "norilsk",
@@ -9879,7 +9879,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 2.5,
+      "sgKpa": 2.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -9911,7 +9911,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.4 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 2.65,
       "sandyFine": 3.23,
@@ -10029,7 +10029,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10061,7 +10061,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.25 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.71,
       "sandyFine": 2.08,
@@ -10137,7 +10137,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.1,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10169,7 +10169,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.1 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.95,
       "sandyFine": 2.37,
@@ -10245,7 +10245,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.5,
+      "sgKpa": 1.05,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10277,7 +10277,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.05 кПа"
+    "comment": ""
   },
   {
     "id": "ust_ilimsk",
@@ -10287,7 +10287,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10319,7 +10319,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.25 кПа"
+    "comment": ""
   },
   {
     "id": "severodvinsk",
@@ -10329,7 +10329,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.5,
+      "sgKpa": 2.25,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10361,7 +10361,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.25 кПа"
+    "comment": ""
   },
   {
     "id": "naryan_mar",
@@ -10587,7 +10587,7 @@
     "settlementType": "город",
     "snow": {
       "region": "V",
-      "sgKpa": 2.5,
+      "sgKpa": 2.15,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10619,7 +10619,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 2.15 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.78,
       "sandyFine": 2.17,
@@ -10695,7 +10695,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.3,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10727,7 +10727,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.3 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.9,
       "sandyFine": 1.09,
@@ -10803,7 +10803,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.55,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10835,7 +10835,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.55 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.01,
       "sandyFine": 1.23,
@@ -10911,7 +10911,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.8,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -10943,7 +10943,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.8 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.04,
       "sandyFine": 1.27,
@@ -11019,7 +11019,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -11051,7 +11051,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.4 кПа"
+    "comment": ""
   },
   {
     "id": "podolsk",
@@ -11355,7 +11355,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.45,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -11387,7 +11387,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.45 кПа"
+    "comment": ""
   },
   {
     "id": "serpukhov",
@@ -11733,7 +11733,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.45,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -11765,7 +11765,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.45 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.14,
       "sandyFine": 1.39,
@@ -11841,7 +11841,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -11873,7 +11873,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.6 кПа"
+    "comment": ""
   },
   {
     "id": "naro_fominsk",
@@ -12483,7 +12483,7 @@
     "settlementType": "город",
     "snow": {
       "region": "II",
-      "sgKpa": 1.5,
+      "sgKpa": 1.1,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -12515,7 +12515,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.1 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 0.93,
       "sandyFine": 1.14,
@@ -13083,7 +13083,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.55,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -13115,7 +13115,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.55 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.23,
       "sandyFine": 1.5,
@@ -13191,7 +13191,7 @@
     "settlementType": "город",
     "snow": {
       "region": "IV",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -13223,7 +13223,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.6 кПа"
+    "comment": ""
   },
   {
     "id": "aleksandrov",
@@ -15741,7 +15741,7 @@
     "settlementType": "город",
     "snow": {
       "region": "III",
-      "sgKpa": 1.5,
+      "sgKpa": 1.4,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -15773,7 +15773,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.4 кПа"
+    "comment": ""
   },
   {
     "id": "zelenogorsk_krasnoyarsky",
@@ -16851,7 +16851,7 @@
     "settlementType": "посёлок",
     "snow": {
       "region": "III",
-      "sgKpa": 2.0,
+      "sgKpa": 1.6,
       "source": "СП 20.13330.2016 / СП 14.13330; сверено через ese.pro/tools/calculatory/klimaticheskie-nagruzki/",
       "status": "verified"
     },
@@ -16883,7 +16883,7 @@
     "manualAllowed": true,
     "expertOverrideAllowed": true,
     "dataStatus": "verified",
-    "comment": "Sg уточнённое ese.pro: 1.6 кПа",
+    "comment": "",
     "frostDepth": {
       "loamy": 1.69,
       "sandyFine": 2.06,
