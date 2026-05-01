@@ -267,6 +267,92 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "aprelevka__moskovskaya_oblast": {
+    "city": "Апрелевка",
+    "data": {
+      "cold": {
+        "absMin": -42.0,
+        "dailyAmplitude": 7.3,
+        "durationLe0": 136,
+        "durationLe10": 225,
+        "durationLe8": 207,
+        "humidityCold": 84,
+        "humidityCold15": 80,
+        "maxWindJan": 3.6,
+        "meanLe0": -5.3,
+        "meanLe10": -1.2,
+        "meanLe8": -2.1,
+        "meanWindLe8": 3.1,
+        "precipNovMar": 207,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -12.0,
+        "tempColdest5days092": -25.0,
+        "tempColdest5days098": -28.0,
+        "tempColdestDay092": -30.0,
+        "tempColdestDay098": -33.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.65,
+        "loamy": 1.12,
+        "sandyCoarse": 1.46,
+        "sandyFine": 1.36
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -7.8,
+        -7.2,
+        -1.9,
+        5.7,
+        12.6,
+        16.3,
+        18.2,
+        16.4,
+        10.7,
+        4.8,
+        -1.2,
+        -5.5,
+        5.1
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 993,
+        "dailyAmplitude": 11.3,
+        "dailyMaxPrecip": 80,
+        "humidityWarm": 75,
+        "humidityWarm15": 58,
+        "meanMaxTempWarmMonth": 24.3,
+        "minWindJul": 0.0,
+        "precipAprOct": 442,
+        "prevailingWindJunAug": "З",
+        "temp095": 22.0,
+        "temp099": 25.0
+      }
+    },
+    "error": null,
+    "id": "aprelevka__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635375,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "apsheronsk__krasnodarskiy_kray": {
     "city": "Апшеронск",
     "data": {
@@ -517,6 +603,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "arzamas__nizhegorodskaya_oblast": {
+    "city": "Арзамас",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "arzamas__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "babaevo__vologodskaya_oblast": {
     "city": "Бабаево",
     "data": {
@@ -719,6 +815,16 @@
     "scrapedAt": 1777633252,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "balakhna__nizhegorodskaya_oblast": {
+    "city": "Балахна",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "balakhna__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "baley__zabaykalskiy_kray": {
     "city": "Балей",
@@ -1742,6 +1848,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "bogorodsk__nizhegorodskaya_oblast": {
+    "city": "Богородск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "bogorodsk__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "bogotol__krasnoyarskiy_kray": {
     "city": "Боготол",
     "data": {
@@ -1903,6 +2019,16 @@
     "id": "boksitogorsk__leningradskaya_oblast",
     "region": "Ленинградская область",
     "scrapedAt": 1777634709,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "bor__nizhegorodskaya_oblast": {
+    "city": "Бор",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "bor__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -2109,6 +2235,45 @@
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
+  "bronnitsy__moskovskaya_oblast": {
+    "city": "Бронницы",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "bronnitsy__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635389,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "buturlinovka__voronezhskaya_oblast": {
     "city": "Бутурлиновка",
     "data": {
@@ -2187,6 +2352,45 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "chaplygin__lipetskaya_oblast": {
+    "city": "Чаплыгин",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "chaplygin__lipetskaya_oblast",
+    "region": "Липецкая область",
+    "scrapedAt": 1777635362,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "chegem__kabardino_balkarskaya_respublika": {
     "city": "Чегем",
     "data": {
@@ -2225,6 +2429,16 @@
     "scrapedAt": 1777632985,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
+  },
+  "chekhov__moskovskaya_oblast": {
+    "city": "Чехов",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "chekhov__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "cheremkhovo__irkutskaya_oblast": {
     "city": "Черемхово",
@@ -2350,6 +2564,16 @@
     "scrapedAt": 1777633549,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "chernogolovka__moskovskaya_oblast": {
+    "city": "Черноголовка",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "chernogolovka__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "chernyakhovsk__kaliningradskaya_oblast": {
     "city": "Черняховск",
@@ -2515,6 +2739,84 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "dankov__lipetskaya_oblast": {
+    "city": "Данков",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "dankov__lipetskaya_oblast",
+    "region": "Липецкая область",
+    "scrapedAt": 1777635295,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "dedovsk__moskovskaya_oblast": {
+    "city": "Дедовск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "dedovsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635483,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "divnogorsk__krasnoyarskiy_kray": {
     "city": "Дивногорск",
     "data": {
@@ -2593,6 +2895,84 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "drezna__moskovskaya_oblast": {
+    "city": "Дрезна",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "drezna__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635511,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "dubna__moskovskaya_oblast": {
+    "city": "Дубна",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "dubna__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635524,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "dubovka__volgogradskaya_oblast": {
     "city": "Дубовка",
     "data": {
@@ -2668,6 +3048,200 @@
     "id": "dyatkovo__bryanskaya_oblast",
     "region": "Брянская область",
     "scrapedAt": 1777631814,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "dzerzhinsk__nizhegorodskaya_oblast": {
+    "city": "Дзержинск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "dzerzhinsk__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "dzerzhinskiy__moskovskaya_oblast": {
+    "city": "Дзержинский",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "dzerzhinskiy__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635496,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "egorevsk__moskovskaya_oblast": {
+    "city": "Егорьевск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "egorevsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635538,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "elektrogorsk__moskovskaya_oblast": {
+    "city": "Электрогорск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "elektrogorsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "elektrougli__moskovskaya_oblast": {
+    "city": "Электроугли",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "elektrougli__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "elets__lipetskaya_oblast": {
+    "city": "Елец",
+    "data": {
+      "cold": {
+        "absMin": -39.0,
+        "dailyAmplitude": 6.8,
+        "durationLe0": 130,
+        "durationLe10": 209,
+        "durationLe8": 192,
+        "humidityCold": 84,
+        "humidityCold15": 80,
+        "maxWindJan": 3.5,
+        "meanLe0": -5.3,
+        "meanLe10": -1.4,
+        "meanLe8": -2.3,
+        "meanWindLe8": 2.8,
+        "precipNovMar": 195,
+        "prevailingWindDecFeb": "ЮЗ",
+        "temp094": -12.0,
+        "tempColdest5days092": -25.0,
+        "tempColdest5days098": -27.0,
+        "tempColdestDay092": -29.0,
+        "tempColdestDay098": -32.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.59,
+        "loamy": 1.08,
+        "sandyCoarse": 1.4,
+        "sandyFine": 1.31
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.35,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": [
+        -7.4,
+        -7.3,
+        -1.8,
+        7.4,
+        14.6,
+        18.2,
+        19.9,
+        18.6,
+        12.7,
+        6.1,
+        -0.4,
+        -5.0,
+        6.3
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {
+        "absMax": 41.0,
+        "barometric": 998,
+        "dailyAmplitude": 12.2,
+        "dailyMaxPrecip": 79,
+        "humidityWarm": 70,
+        "humidityWarm15": 51,
+        "meanMaxTempWarmMonth": 26.7,
+        "minWindJul": 2.7,
+        "precipAprOct": 395,
+        "prevailingWindJunAug": "С",
+        "temp095": 25.0,
+        "temp099": 28.0
+      }
+    },
+    "error": null,
+    "id": "elets__lipetskaya_oblast",
+    "region": "Липецкая область",
+    "scrapedAt": 1777635308,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -2991,6 +3565,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "fryazino__moskovskaya_oblast": {
+    "city": "Фрязино",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "fryazino__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "furmanov__ivanovskaya_oblast": {
     "city": "Фурманов",
     "data": {
@@ -3029,6 +3613,16 @@
     "scrapedAt": 1777632755,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "gadzhievo__murmanskaya_oblast": {
+    "city": "Гаджиево",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "gadzhievo__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
   },
   "galich__kostromskaya_oblast": {
     "city": "Галич",
@@ -3147,6 +3741,55 @@
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
+  "golitsyno__moskovskaya_oblast": {
+    "city": "Голицыно",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "golitsyno__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635470,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "gorbatov__nizhegorodskaya_oblast": {
+    "city": "Горбатов",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "gorbatov__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "gorno_altaysk__altayskiy_kray": {
     "city": "Горно-Алтайск",
     "data": {
@@ -3224,6 +3867,16 @@
     "scrapedAt": 1777631275,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "gorodets__nizhegorodskaya_oblast": {
+    "city": "Городец",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "gorodets__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "gorokhovets__vladimirskaya_oblast": {
     "city": "Гороховец",
@@ -3339,6 +3992,45 @@
     "id": "grayvoron__belgorodskaya_oblast",
     "region": "Белгородская область",
     "scrapedAt": 1777631749,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "gryazi__lipetskaya_oblast": {
+    "city": "Грязи",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "gryazi__lipetskaya_oblast",
+    "region": "Липецкая область",
+    "scrapedAt": 1777635281,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -3693,6 +4385,45 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "istra__moskovskaya_oblast": {
+    "city": "Истра",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "istra__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635620,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "ivangorod__leningradskaya_oblast": {
     "city": "Ивангород",
     "data": {
@@ -3729,6 +4460,45 @@
     "id": "ivangorod__leningradskaya_oblast",
     "region": "Ленинградская область",
     "scrapedAt": 1777634778,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "ivanteevka__moskovskaya_oblast": {
+    "city": "Ивантеевка",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "ivanteevka__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635606,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -4333,6 +5103,92 @@
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
+  "kashira__moskovskaya_oblast": {
+    "city": "Кашира",
+    "data": {
+      "cold": {
+        "absMin": -44.0,
+        "dailyAmplitude": 6.2,
+        "durationLe0": 138,
+        "durationLe10": 220,
+        "durationLe8": 203,
+        "humidityCold": 84,
+        "humidityCold15": 81,
+        "maxWindJan": 4.4,
+        "meanLe0": -5.6,
+        "meanLe10": -1.6,
+        "meanLe8": -2.5,
+        "meanWindLe8": 3.5,
+        "precipNovMar": 192,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -13.0,
+        "tempColdest5days092": -25.0,
+        "tempColdest5days098": -28.0,
+        "tempColdestDay092": -29.0,
+        "tempColdestDay098": -32.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.7,
+        "loamy": 1.15,
+        "sandyCoarse": 1.5,
+        "sandyFine": 1.4
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -8.3,
+        -7.7,
+        -2.3,
+        5.9,
+        13.5,
+        17.1,
+        18.6,
+        17.2,
+        11.4,
+        4.9,
+        -1.2,
+        -5.6,
+        5.3
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 989,
+        "dailyAmplitude": 10.0,
+        "dailyMaxPrecip": 59,
+        "humidityWarm": 71,
+        "humidityWarm15": 57,
+        "meanMaxTempWarmMonth": 24.3,
+        "minWindJul": 2.5,
+        "precipAprOct": 415,
+        "prevailingWindJunAug": "З",
+        "temp095": 23.0,
+        "temp099": 25.0
+      }
+    },
+    "error": null,
+    "id": "kashira__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635633,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "kataysk__kurganskaya_oblast": {
     "city": "Катайск",
     "data": {
@@ -4410,6 +5266,16 @@
     "scrapedAt": 1777631711,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
+  },
+  "khotkovo__moskovskaya_oblast": {
+    "city": "Хотьково",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "khotkovo__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "kineshma__ivanovskaya_oblast": {
     "city": "Кинешма",
@@ -4825,6 +5691,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "kirovsk__murmanskaya_oblast": {
+    "city": "Кировск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kirovsk__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
+  },
   "kirs__kirovskaya_oblast": {
     "city": "Кирс",
     "data": {
@@ -4989,6 +5865,84 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "klimovsk__moskovskaya_oblast": {
+    "city": "Климовск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "klimovsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635647,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "klin__moskovskaya_oblast": {
+    "city": "Клин",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.85,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "klin__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635661,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "klintsy__bryanskaya_oblast": {
     "city": "Клинцы",
     "data": {
@@ -5027,6 +5981,16 @@
     "scrapedAt": 1777631850,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "knyaginino__nizhegorodskaya_oblast": {
+    "city": "Княгинино",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "knyaginino__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "kodinsk__krasnoyarskiy_kray": {
     "city": "Кодинск",
@@ -5105,6 +6069,16 @@
     "scrapedAt": 1777632680,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "kola__murmanskaya_oblast": {
+    "city": "Кола",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kola__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
   },
   "kolchugino__vladimirskaya_oblast": {
     "city": "Кольчугино",
@@ -5582,6 +6556,45 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "kotelniki__moskovskaya_oblast": {
+    "city": "Котельники",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "kotelniki__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635675,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "kotelnikovo__volgogradskaya_oblast": {
     "city": "Котельниково",
     "data": {
@@ -5793,6 +6806,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "kovdor__murmanskaya_oblast": {
+    "city": "Ковдор",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kovdor__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
+  },
   "kozelsk__kaluzhskaya_oblast": {
     "city": "Козельск",
     "data": {
@@ -5870,6 +6893,45 @@
     "scrapedAt": 1777632333,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "krasnoarmeysk__moskovskaya_oblast": {
+    "city": "Красноармейск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "krasnoarmeysk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635688,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "krasnoe_selo__leningradskaya_oblast": {
     "city": "Красное Село",
@@ -5988,6 +7050,45 @@
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
+  "krasnozavodsk__moskovskaya_oblast": {
+    "city": "Краснозаводск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "krasnozavodsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635702,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "krasnoznamensk__kaliningradskaya_oblast": {
     "city": "Краснознаменск",
     "data": {
@@ -6026,6 +7127,45 @@
     "scrapedAt": 1777633084,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "krasnoznamensk__moskovskaya_oblast": {
+    "city": "Краснознаменск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "krasnoznamensk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635716,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "kremenki__kaluzhskaya_oblast": {
     "city": "Кремёнки",
@@ -6105,6 +7245,65 @@
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
+  "kstovo__nizhegorodskaya_oblast": {
+    "city": "Кстово",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kstovo__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "kubinka__moskovskaya_oblast": {
+    "city": "Кубинка",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "kubinka__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635730,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "kulebaki__nizhegorodskaya_oblast": {
+    "city": "Кулебаки",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kulebaki__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "kurchatov__kurskaya_oblast": {
     "city": "Курчатов",
     "data": {
@@ -6182,6 +7381,45 @@
     "scrapedAt": 1777634202,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "kurovskoe__moskovskaya_oblast": {
+    "city": "Куровское",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "kurovskoe__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635744,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "kurtamysh__kurganskaya_oblast": {
     "city": "Куртамыш",
@@ -6300,6 +7538,45 @@
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
+  "lebedyan__lipetskaya_oblast": {
+    "city": "Лебедянь",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "lebedyan__lipetskaya_oblast",
+    "region": "Липецкая область",
+    "scrapedAt": 1777635335,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "leninsk__volgogradskaya_oblast": {
     "city": "Ленинск",
     "data": {
@@ -6417,6 +7694,45 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "likino_dulevo__moskovskaya_oblast": {
+    "city": "Ликино-Дулёво",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "likino_dulevo__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635758,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "liski__voronezhskaya_oblast": {
     "city": "Лиски",
     "data": {
@@ -6453,6 +7769,45 @@
     "id": "liski__voronezhskaya_oblast",
     "region": "Воронежская область",
     "scrapedAt": 1777632434,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "lobnya__moskovskaya_oblast": {
+    "city": "Лобня",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "lobnya__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635771,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -6534,6 +7889,94 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "losino_petrovskiy__moskovskaya_oblast": {
+    "city": "Лосино-Петровский",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "losino_petrovskiy__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635785,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "lukhovitsy__moskovskaya_oblast": {
+    "city": "Луховицы",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "lukhovitsy__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635799,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "lukoyanov__nizhegorodskaya_oblast": {
+    "city": "Лукоянов",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "lukoyanov__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "luza__kirovskaya_oblast": {
     "city": "Луза",
     "data": {
@@ -6572,6 +8015,55 @@
     "scrapedAt": 1777633836,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "lyskovo__nizhegorodskaya_oblast": {
+    "city": "Лысково",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "lyskovo__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "lytkarino__moskovskaya_oblast": {
+    "city": "Лыткарино",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "lytkarino__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635814,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "lyuban__leningradskaya_oblast": {
     "city": "Любань",
@@ -7471,6 +8963,170 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "moskovskiy__moskovskaya_oblast": {
+    "city": "Московский",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "moskovskiy__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635856,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "moskva__moskovskaya_oblast": {
+    "city": "Москва",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "moskva__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635842,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "mozhaysk__moskovskaya_oblast": {
+    "city": "Можайск",
+    "data": {
+      "cold": {
+        "absMin": -44.0,
+        "dailyAmplitude": 7.3,
+        "durationLe0": 136,
+        "durationLe10": 226,
+        "durationLe8": 208,
+        "humidityCold": 83,
+        "humidityCold15": 77,
+        "maxWindJan": 3.8,
+        "meanLe0": -5.3,
+        "meanLe10": -1.2,
+        "meanLe8": -2.0,
+        "meanWindLe8": 3.0,
+        "precipNovMar": 204,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -12.0,
+        "tempColdest5days092": -25.0,
+        "tempColdest5days098": -27.0,
+        "tempColdestDay092": -31.0,
+        "tempColdestDay098": -34.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.65,
+        "loamy": 1.11,
+        "sandyCoarse": 1.45,
+        "sandyFine": 1.36
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -7.7,
+        -7.3,
+        -2.0,
+        5.8,
+        12.5,
+        16.4,
+        18.2,
+        16.4,
+        10.8,
+        4.9,
+        -1.1,
+        -5.4,
+        5.1
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 38.0,
+        "barometric": 993,
+        "dailyAmplitude": 11.3,
+        "dailyMaxPrecip": 66,
+        "humidityWarm": 74,
+        "humidityWarm15": 57,
+        "meanMaxTempWarmMonth": 24.3,
+        "minWindJul": 0.0,
+        "precipAprOct": 461,
+        "prevailingWindJunAug": "Ю",
+        "temp095": 22.0,
+        "temp099": 25.0
+      }
+    },
+    "error": null,
+    "id": "mozhaysk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635827,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "narimanov__astrakhanskaya_oblast": {
     "city": "Нариманов",
     "data": {
@@ -7509,6 +9165,16 @@
     "scrapedAt": 1777631702,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
+  },
+  "navashino__nizhegorodskaya_oblast": {
+    "city": "Навашино",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "navashino__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "navoloki__ivanovskaya_oblast": {
     "city": "Наволоки",
@@ -7991,6 +9657,45 @@
     "id": "nikolskoe__leningradskaya_oblast",
     "region": "Ленинградская область",
     "scrapedAt": 1777634960,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "noginsk__moskovskaya_oblast": {
+    "city": "Ногинск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "noginsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635870,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -8594,6 +10299,55 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "odintsovo__moskovskaya_oblast": {
+    "city": "Одинцово",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "odintsovo__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635885,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "olenegorsk__murmanskaya_oblast": {
+    "city": "Оленегорск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "olenegorsk__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
+  },
   "omutninsk__kirovskaya_oblast": {
     "city": "Омутнинск",
     "data": {
@@ -8797,6 +10551,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "ostrovnoy__murmanskaya_oblast": {
+    "city": "Островной",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "ostrovnoy__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
+  },
   "otradnoe__leningradskaya_oblast": {
     "city": "Отрадное",
     "data": {
@@ -8874,6 +10638,131 @@
     "scrapedAt": 1777633140,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "ozery__moskovskaya_oblast": {
+    "city": "Озёры",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "ozery__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635912,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "ozherele__moskovskaya_oblast": {
+    "city": "Ожерелье",
+    "data": {
+      "cold": {
+        "absMin": -44.0,
+        "dailyAmplitude": 6.2,
+        "durationLe0": 138,
+        "durationLe10": 220,
+        "durationLe8": 203,
+        "humidityCold": 84,
+        "humidityCold15": 81,
+        "maxWindJan": 4.4,
+        "meanLe0": -5.6,
+        "meanLe10": -1.6,
+        "meanLe8": -2.5,
+        "meanWindLe8": 3.5,
+        "precipNovMar": 192,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -13.0,
+        "tempColdest5days092": -25.0,
+        "tempColdest5days098": -28.0,
+        "tempColdestDay092": -29.0,
+        "tempColdestDay098": -32.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.7,
+        "loamy": 1.15,
+        "sandyCoarse": 1.5,
+        "sandyFine": 1.4
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -8.3,
+        -7.7,
+        -2.3,
+        5.9,
+        13.5,
+        17.1,
+        18.6,
+        17.2,
+        11.4,
+        4.9,
+        -1.2,
+        -5.6,
+        5.3
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 989,
+        "dailyAmplitude": 10.0,
+        "dailyMaxPrecip": 59,
+        "humidityWarm": 71,
+        "humidityWarm15": 57,
+        "meanMaxTempWarmMonth": 24.3,
+        "minWindJul": 2.5,
+        "precipAprOct": 415,
+        "prevailingWindJunAug": "З",
+        "temp095": 23.0,
+        "temp099": 25.0
+      }
+    },
+    "error": null,
+    "id": "ozherele__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635897,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "pallasovka__volgogradskaya_oblast": {
     "city": "Палласовка",
@@ -9038,6 +10927,131 @@
     "scrapedAt": 1777632473,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "pavlovskiy_posad__moskovskaya_oblast": {
+    "city": "Павловский Посад",
+    "data": {
+      "cold": {
+        "absMin": -45.0,
+        "dailyAmplitude": 7.2,
+        "durationLe0": 137,
+        "durationLe10": 223,
+        "durationLe8": 205,
+        "humidityCold": 84,
+        "humidityCold15": 80,
+        "maxWindJan": 2.8,
+        "meanLe0": -5.5,
+        "meanLe10": -1.4,
+        "meanLe8": -2.3,
+        "meanWindLe8": 2.5,
+        "precipNovMar": 217,
+        "prevailingWindDecFeb": "Ю",
+        "temp094": -13.0,
+        "tempColdest5days092": -25.0,
+        "tempColdest5days098": -29.0,
+        "tempColdestDay092": -30.0,
+        "tempColdestDay098": -33.0
+      },
+      "frostDepth": {
+        "coarseFragmental": 1.69,
+        "loamy": 1.14,
+        "sandyCoarse": 1.49,
+        "sandyFine": 1.39
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": [
+        -8.1,
+        -7.4,
+        -2.0,
+        6.0,
+        13.0,
+        17.0,
+        18.9,
+        16.9,
+        11.0,
+        4.9,
+        -1.4,
+        -5.7,
+        5.3
+      ],
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {
+        "absMax": 39.0,
+        "barometric": 999,
+        "dailyAmplitude": 11.4,
+        "dailyMaxPrecip": 82,
+        "humidityWarm": 73,
+        "humidityWarm15": 56,
+        "meanMaxTempWarmMonth": 25.1,
+        "minWindJul": 0.0,
+        "precipAprOct": 444,
+        "prevailingWindJunAug": "Ю",
+        "temp095": 23.0,
+        "temp099": 26.0
+      }
+    },
+    "error": null,
+    "id": "pavlovskiy_posad__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635926,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "peresvet__moskovskaya_oblast": {
+    "city": "Пересвет",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "peresvet__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635940,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "pervomayskiy__kirovskaya_oblast": {
     "city": "Первомайский",
@@ -9546,6 +11560,16 @@
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
+  "polyarnyy__murmanskaya_oblast": {
+    "city": "Полярный",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "polyarnyy__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
+  },
   "polysaevo__kemerovskaya_oblast": {
     "city": "Полысаево",
     "data": {
@@ -9944,6 +11968,45 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "protvino__moskovskaya_oblast": {
+    "city": "Протвино",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "protvino__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635954,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "puchezh__ivanovskaya_oblast": {
     "city": "Пучеж",
     "data": {
@@ -9983,6 +12046,45 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "pushchino__moskovskaya_oblast": {
+    "city": "Пущино",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "pushchino__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635983,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "pushkin__leningradskaya_oblast": {
     "city": "Пушкин",
     "data": {
@@ -10019,6 +12121,45 @@
     "id": "pushkin__leningradskaya_oblast",
     "region": "Ленинградская область",
     "scrapedAt": 1777635112,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "pushkino__moskovskaya_oblast": {
+    "city": "Пушкино",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "pushkino__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635969,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -10060,6 +12201,16 @@
     "scrapedAt": 1777632734,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "roshal__moskovskaya_oblast": {
+    "city": "Рошаль",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "roshal__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "rubtsovsk__altayskiy_kray": {
     "city": "Рубцовск",
@@ -10146,6 +12297,16 @@
     "scrapedAt": 1777631312,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "ruza__moskovskaya_oblast": {
+    "city": "Руза",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "ruza__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "rylsk__kurskaya_oblast": {
     "city": "Рыльск",
@@ -10748,6 +12909,36 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "shatura__moskovskaya_oblast": {
+    "city": "Шатура",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "shatura__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "shchelkovo__moskovskaya_oblast": {
+    "city": "Щёлково",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "shchelkovo__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "shcherbinka__moskovskaya_oblast": {
+    "city": "Щербинка",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "shcherbinka__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "shchigry__kurskaya_oblast": {
     "city": "Щигры",
     "data": {
@@ -11114,6 +13305,45 @@
     "scrapedAt": 1777631405,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
+  },
+  "shlisselburg__leningradskaya_oblast": {
+    "city": "Шлиссельбург",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 2.0,
+          "region": "IV"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "shlisselburg__leningradskaya_oblast",
+    "region": "Ленинградская область",
+    "scrapedAt": 1777635268,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "shumikha__kurganskaya_oblast": {
     "city": "Шумиха",
@@ -11568,6 +13798,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "snezhnogorsk__murmanskaya_oblast": {
+    "city": "Снежногорск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "snezhnogorsk__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
+  },
   "sokol__vologodskaya_oblast": {
     "city": "Сокол",
     "data": {
@@ -11645,6 +13885,16 @@
     "scrapedAt": 1777634042,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
+  },
+  "solnechnogorsk__moskovskaya_oblast": {
+    "city": "Солнечногорск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "solnechnogorsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "solvychegodsk__arkhangelskaya_oblast": {
     "city": "Сольвычегодск",
@@ -11919,6 +14169,16 @@
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
+  "staraya_kupavna__moskovskaya_oblast": {
+    "city": "Старая Купавна",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "staraya_kupavna__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "starodub__bryanskaya_oblast": {
     "city": "Стародуб",
     "data": {
@@ -12074,6 +14334,16 @@
     "scrapedAt": 1777632069,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "stupino__moskovskaya_oblast": {
+    "city": "Ступино",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "stupino__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "sudzha__kurskaya_oblast": {
     "city": "Суджа",
@@ -13223,6 +15493,45 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "tosno__leningradskaya_oblast": {
+    "city": "Тосно",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "tosno__leningradskaya_oblast",
+    "region": "Ленинградская область",
+    "scrapedAt": 1777635255,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "totma__vologodskaya_oblast": {
     "city": "Тотьма",
     "data": {
@@ -13308,6 +15617,16 @@
     "scrapedAt": 1777632363,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
+  },
+  "troitsk__moskovskaya_oblast": {
+    "city": "Троицк",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "troitsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "trubchevsk__bryanskaya_oblast": {
     "city": "Трубчевск",
@@ -13762,6 +16081,45 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "usman__lipetskaya_oblast": {
+    "city": "Усмань",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "usman__lipetskaya_oblast",
+    "region": "Липецкая область",
+    "scrapedAt": 1777635348,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "usole_sibirskoe__irkutskaya_oblast": {
     "city": "Усолье-Сибирское",
     "data": {
@@ -14160,6 +16518,55 @@
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
+  "vereya__moskovskaya_oblast": {
+    "city": "Верея",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "vereya__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635402,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "vetluga__nizhegorodskaya_oblast": {
+    "city": "Ветлуга",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "vetluga__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "vichuga__ivanovskaya_oblast": {
     "city": "Вичуга",
     "data": {
@@ -14198,6 +16605,45 @@
     "scrapedAt": 1777632636,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "vidnoe__moskovskaya_oblast": {
+    "city": "Видное",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "vidnoe__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635416,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "vikhorevka__irkutskaya_oblast": {
     "city": "Вихоревка",
@@ -14316,6 +16762,55 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "volodarsk__nizhegorodskaya_oblast": {
+    "city": "Володарск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "volodarsk__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "volokolamsk__moskovskaya_oblast": {
+    "city": "Волоколамск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "volokolamsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635429,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "volosovo__leningradskaya_oblast": {
     "city": "Волосово",
     "data": {
@@ -14394,6 +16889,55 @@
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
+  "vorsma__nizhegorodskaya_oblast": {
+    "city": "Ворсма",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "vorsma__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "voskresensk__moskovskaya_oblast": {
+    "city": "Воскресенск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "voskresensk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635443,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "vyatskie_polyany__kirovskaya_oblast": {
     "city": "Вятские Поляны",
     "data": {
@@ -14471,6 +17015,55 @@
     "scrapedAt": 1777631965,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "vyksa__nizhegorodskaya_oblast": {
+    "city": "Выкса",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "vyksa__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "vysokovsk__moskovskaya_oblast": {
+    "city": "Высоковск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "vysokovsk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635456,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "vysotsk__leningradskaya_oblast": {
     "city": "Высоцк",
@@ -14597,6 +17190,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "yakhroma__moskovskaya_oblast": {
+    "city": "Яхрома",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "yakhroma__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "yaransk__kirovskaya_oblast": {
     "city": "Яранск",
     "data": {
@@ -14674,6 +17277,16 @@
     "scrapedAt": 1777631331,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "yubileynyy__moskovskaya_oblast": {
+    "city": "Юбилейный",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "yubileynyy__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "yukhnov__kaluzhskaya_oblast": {
     "city": "Юхнов",
@@ -14870,6 +17483,45 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "zadonsk__lipetskaya_oblast": {
+    "city": "Задонск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.3,
+          "region": "II"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 6
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "zadonsk__lipetskaya_oblast",
+    "region": "Липецкая область",
+    "scrapedAt": 1777635322,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "zaozernyy__krasnoyarskiy_kray": {
     "city": "Заозёрный",
     "data": {
@@ -14906,6 +17558,65 @@
     "id": "zaozernyy__krasnoyarskiy_kray",
     "region": "Красноярский край",
     "scrapedAt": 1777634380,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "zaozersk__murmanskaya_oblast": {
+    "city": "Заозёрск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "zaozersk__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
+  },
+  "zapolyarnyy__murmanskaya_oblast": {
+    "city": "Заполярный",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "zapolyarnyy__murmanskaya_oblast",
+    "region": "Мурманская область",
+    "scrapedAt": 1777635985,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
+  },
+  "zaraysk__moskovskaya_oblast": {
+    "city": "Зарайск",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "zaraysk__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635565,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -14987,6 +17698,26 @@
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
+  "zavolzhe__nizhegorodskaya_oblast": {
+    "city": "Заволжье",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "zavolzhe__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "zavolzhsk__nizhegorodskaya_oblast": {
+    "city": "Заволжск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "zavolzhsk__nizhegorodskaya_oblast",
+    "region": "Нижегородская область",
+    "scrapedAt": 1777635986,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "zelenogorsk__leningradskaya_oblast": {
     "city": "Зеленогорск",
     "data": {
@@ -15025,6 +17756,45 @@
     "scrapedAt": 1777634765,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "zelenograd__moskovskaya_oblast": {
+    "city": "Зеленоград",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "zelenograd__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635593,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "zelenogradsk__kaliningradskaya_oblast": {
     "city": "Зеленоградск",
@@ -15150,6 +17920,45 @@
     "scrapedAt": 1777631368,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "zheleznodorozhnyy__moskovskaya_oblast": {
+    "city": "Железнодорожный",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "zheleznodorozhnyy__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635552,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "zheleznogorsk__kurskaya_oblast": {
     "city": "Железногорск",
@@ -15673,5 +18482,44 @@
     "scrapedAt": 1777633786,
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
+  },
+  "zvenigorod__moskovskaya_oblast": {
+    "city": "Звенигород",
+    "data": {
+      "cold": {},
+      "frostDepth": {
+        "coarseFragmental": null,
+        "loamy": null,
+        "sandyCoarse": null,
+        "sandyFine": null
+      },
+      "loads": {
+        "ice": {
+          "mm": 5.0,
+          "region": "II"
+        },
+        "snow": {
+          "kpa": 1.5,
+          "region": "III"
+        },
+        "wind": {
+          "kpa": 0.23,
+          "region": "I"
+        }
+      },
+      "monthlyTemps": null,
+      "seismic": {
+        "mapA": 5,
+        "mapB": 5,
+        "mapC": 5
+      },
+      "warm": {}
+    },
+    "error": null,
+    "id": "zvenigorod__moskovskaya_oblast",
+    "region": "Московская область",
+    "scrapedAt": 1777635579,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   }
 }
