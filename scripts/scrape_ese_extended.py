@@ -187,9 +187,14 @@ def main() -> int:
     last_commit_at = 0
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=not args.headed)
-        ctx = browser.new_context(viewport={"width": 1600, "height": 900})
-        page = ctx.new_page()
+        def make_browser():
+            br = p.chromium.launch(headless=not args.headed)
+            ct = br.new_context(viewport={"width": 1600, "height": 900})
+            pg = ct.new_page()
+            return br, ct, pg
+
+        browser, ctx, page = make_browser()
+        cities_since_restart = 0
 
         for i, c in enumerate(cities):
             city = c["city"]
@@ -208,6 +213,16 @@ def main() -> int:
                     skip_cnt += 1
                     continue
 
+            # Periodically recycle browser to avoid memory accumulation crashes
+            if cities_since_restart >= 200:
+                try:
+                    browser.close()
+                except Exception:
+                    pass
+                browser, ctx, page = make_browser()
+                cities_since_restart = 0
+                print("[browser] recycled after 200 cities", flush=True)
+
             t0 = time.time()
             err = None
             parsed = None
@@ -219,9 +234,25 @@ def main() -> int:
                 except Exception as e:
                     err = repr(e)[:200]
                     parsed = None
+                    # If page/browser crashed, recreate them and retry once
+                    if "Page crashed" in err or "Target closed" in err or "TargetClosed" in err:
+                        try:
+                            browser.close()
+                        except Exception:
+                            pass
+                        browser, ctx, page = make_browser()
+                        cities_since_restart = 0
+                        print(f"[browser] restarted after crash on {sid}", flush=True)
+                        try:
+                            parsed = scrape_one(page, q)
+                            err = None
+                        except Exception as e2:
+                            err = repr(e2)[:200]
+                            parsed = None
                 if parsed and parsed.get("loads", {}).get("snow", {}).get("kpa") is not None:
                     err = None
                     break
+            cities_since_restart += 1
 
             row = {
                 "id": sid,
