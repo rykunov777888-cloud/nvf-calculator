@@ -167,6 +167,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "alatyr__chuvashskaya_respublika_chuvashiya": {
+    "city": "Алатырь",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "alatyr__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская Республика-Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "aleksandrovsk__permskiy_kray": {
     "city": "Александровск",
     "data": null,
@@ -572,6 +582,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "argun__chechenskaya_respublika": {
+    "city": "Аргун",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "argun__chechenskaya_respublika",
+    "region": "Чеченская Республика",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 0.5,
+    "snow_region_lsk": "I"
+  },
   "arkadak__saratovskaya_oblast": {
     "city": "Аркадак",
     "data": null,
@@ -853,6 +873,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "asha__chelyabinskaya_oblast": {
+    "city": "Аша",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "asha__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
+  },
   "asino__tomskaya_oblast": {
     "city": "Асино",
     "data": null,
@@ -1027,6 +1057,16 @@
     "scrapedAt": 1777633018,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "bakal__chelyabinskaya_oblast": {
+    "city": "Бакал",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "bakal__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "bakhchisaray__respublika_krym": {
     "city": "Бахчисарай",
@@ -1329,6 +1369,16 @@
     "scrapedAt": 1777631218,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "barysh__ulyanovskaya_oblast": {
+    "city": "Барыш",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "barysh__ulyanovskaya_oblast",
+    "region": "Ульяновская область",
+    "scrapedAt": 1777635995,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "bataysk__rostovskaya_oblast": {
     "city": "Батайск",
@@ -1934,6 +1984,16 @@
     "scrapedAt": 1777635994,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "bikin__khabarovskiy_kray": {
+    "city": "Бикин",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "bikin__khabarovskiy_kray",
+    "region": "Хабаровский край",
+    "scrapedAt": 1777635995,
+    "sg_kpa_lsk": 1.0,
+    "snow_region_lsk": "II"
   },
   "birobidzhan__evreyskaya_ao": {
     "city": "Биробиджан",
@@ -3081,6 +3141,26 @@
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
+  "chebarkul__chelyabinskaya_oblast": {
+    "city": "Чебаркуль",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "chebarkul__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "cheboksary__chuvashskaya_respublika_chuvashiya": {
+    "city": "Чебоксары",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "cheboksary__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская Республика - Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "chegem__kabardino_balkarskaya_respublika": {
     "city": "Чегем",
     "data": {
@@ -3539,6 +3619,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "danilov__yaroclavskaya_oblast": {
+    "city": "Данилов",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "danilov__yaroclavskaya_oblast",
+    "region": "Яроcлавская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "dankov__lipetskaya_oblast": {
     "city": "Данков",
     "data": {
@@ -3676,6 +3766,16 @@
     "scrapedAt": 1777635990,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "dimitrovgrad__ulyanovskaya_oblast": {
+    "city": "Димитровград",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "dimitrovgrad__ulyanovskaya_oblast",
+    "region": "Ульяновская область",
+    "scrapedAt": 1777635995,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "divnogorsk__krasnoyarskiy_kray": {
     "city": "Дивногорск",
@@ -4274,6 +4374,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "emanzhelinsk__chelyabinskaya_oblast": {
+    "city": "Еманжелинск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "emanzhelinsk__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "emva__respublika_komi": {
     "city": "Емва",
     "data": null,
@@ -4769,6 +4879,16 @@
     "id": "gavrilov_posad__ivanovskaya_oblast",
     "region": "Ивановская область",
     "scrapedAt": 1777632647,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "gavrilov_yam__yaroslavskaya_oblast": {
+    "city": "Гаврилов-Ям",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "gavrilov_yam__yaroslavskaya_oblast",
+    "region": "Ярославская область",
+    "scrapedAt": 1777635996,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -5272,6 +5392,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "gudermes__chechenskaya_respublika": {
+    "city": "Гудермес",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "gudermes__chechenskaya_respublika",
+    "region": "Чеченская Республика",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 0.5,
+    "snow_region_lsk": "I"
+  },
   "gukovo__rostovskaya_oblast": {
     "city": "Гуково",
     "data": null,
@@ -5604,6 +5734,16 @@
     "scrapedAt": 1777635989,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
+  },
+  "inza__ulyanovskaya_oblast": {
+    "city": "Инза",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "inza__ulyanovskaya_oblast",
+    "region": "Ульяновская область",
+    "scrapedAt": 1777635995,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "ipatovo__stavropolskiy_kray": {
     "city": "Ипатово",
@@ -6290,6 +6430,16 @@
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
+  "kanash__chuvashskaya_respublika_chuvashiya": {
+    "city": "Канаш",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kanash__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская Республика - Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "karabanovo__vladimirskaya_oblast": {
     "city": "Карабаново",
     "data": {
@@ -6328,6 +6478,16 @@
     "scrapedAt": 1777632003,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "karabash__chelyabinskaya_oblast": {
+    "city": "Карабаш",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "karabash__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "karabulak__respublika_ingushetiya": {
     "city": "Карабулак",
@@ -6533,6 +6693,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "kartaly__chelyabinskaya_oblast": {
+    "city": "Карталы",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kartaly__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "kashin__tverskaya_oblast": {
     "city": "Кашин",
     "data": null,
@@ -6639,6 +6809,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "kasli__chelyabinskaya_oblast": {
+    "city": "Касли",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kasli__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "kaspiysk__respublika_dagestan": {
     "city": "Каспийск",
     "data": null,
@@ -6648,6 +6828,16 @@
     "scrapedAt": 1777635989,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
+  },
+  "katav_ivanovsk__chelyabinskaya_oblast": {
+    "city": "Катав-Ивановск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "katav_ivanovsk__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
   },
   "kataysk__kurganskaya_oblast": {
     "city": "Катайск",
@@ -6718,6 +6908,16 @@
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
+  "khanty_mansiysk__khanty_mansiyskiy_ao": {
+    "city": "Ханты-Мансийск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "khanty_mansiysk__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "kharabali__astrakhanskaya_oblast": {
     "city": "Харабали",
     "data": {
@@ -6764,6 +6964,16 @@
     "id": "khasavyurt__respublika_respublika_dagestan",
     "region": "Республика Республика Дагестан",
     "scrapedAt": 1777635990,
+    "sg_kpa_lsk": 0.5,
+    "snow_region_lsk": "I"
+  },
+  "khilok__chitinskaya_oblast": {
+    "city": "Хилок",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "khilok__chitinskaya_oblast",
+    "region": "Читинская область",
+    "scrapedAt": 1777635996,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
   },
@@ -7651,6 +7861,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "kogalym__khanty_mansiyskiy_ao": {
+    "city": "Когалым",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kogalym__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
+  },
   "kokhma__ivanovskaya_oblast": {
     "city": "Кохма",
     "data": {
@@ -8022,6 +8242,16 @@
     "scrapedAt": 1777634177,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "korkino__chelyabinskaya_oblast": {
+    "city": "Коркино",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "korkino__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "korocha__belgorodskaya_oblast": {
     "city": "Короча",
@@ -8544,6 +8774,16 @@
     "scrapedAt": 1777633330,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "kozlovka__chuvashskaya_respublika_chuvashiya": {
+    "city": "Козловка",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kozlovka__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская Республика - Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "kozmodemyansk__respublika_mariy_el": {
     "city": "Козьмодемьянск",
@@ -9290,6 +9530,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "kusa__chelyabinskaya_oblast": {
+    "city": "Куса",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kusa__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "kuvandyk__orenburgskaya_oblast": {
     "city": "Кувандык",
     "data": null,
@@ -9339,6 +9589,16 @@
     "scrapedAt": 1777635989,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
+  },
+  "kyshtym__chelyabinskaya_oblast": {
+    "city": "Кыштым",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "kyshtym__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "labinsk__krasnodarskiy_kray": {
     "city": "Лабинск",
@@ -9986,6 +10246,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "lyantor__khanty_mansiyskiy_ao": {
+    "city": "Лянтор",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "lyantor__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
+  },
   "lyskovo__nizhegorodskaya_oblast": {
     "city": "Лысково",
     "data": null,
@@ -10083,6 +10353,16 @@
     "scrapedAt": 1777634947,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "lyubim__yaroslavskaya_oblast": {
+    "city": "Любим",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "lyubim__yaroslavskaya_oblast",
+    "region": "Ярославская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "lyudinovo__kaluzhskaya_oblast": {
     "city": "Людиново",
@@ -10395,6 +10675,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "mariinskiy_posad__chuvashskaya_respublika_chuvashiya": {
+    "city": "Мариинский Посад",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "mariinskiy_posad__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская республика - Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "marks__saratovskaya_oblast": {
     "city": "Маркс",
     "data": null,
@@ -10492,6 +10782,16 @@
     "scrapedAt": 1777633387,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "megion__khanty_mansiyskiy_ao": {
+    "city": "Мегион",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "megion__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
   },
   "melenki__vladimirskaya_oblast": {
     "city": "Меленки",
@@ -10891,6 +11191,16 @@
     "scrapedAt": 1777635994,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "minyar__chelyabinskaya_oblast": {
+    "city": "Миньяр",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "minyar__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
   },
   "mirnyy__arkhangelskaya_oblast": {
     "city": "Мирный",
@@ -11317,6 +11627,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "myshkin__yaroslavskaya_oblast": {
+    "city": "Мышкин",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "myshkin__yaroslavskaya_oblast",
+    "region": "Ярославская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "narimanov__astrakhanskaya_oblast": {
     "city": "Нариманов",
     "data": {
@@ -11483,6 +11803,16 @@
     "scrapedAt": 1777635994,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "nefteyugansk__khanty_mansiyskiy_ao": {
+    "city": "Нефтеюганск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "nefteyugansk__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "nelidovo__tverskaya_oblast": {
     "city": "Нелидово",
@@ -11950,6 +12280,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "nizhnevartovsk__khanty_mansiyskiy_ao": {
+    "city": "Нижневартовск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "nizhnevartovsk__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
+  },
   "nizhnie_sergi__sverdlovskaya_oblast": {
     "city": "Нижние Серги",
     "data": null,
@@ -12213,6 +12553,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "novocheboksarsk__chuvashskaya_respublika_chuvashiya": {
+    "city": "Новочебоксарск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "novocheboksarsk__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская Республика - Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "novocherkassk__rostovskaya_oblast": {
     "city": "Новочеркасск",
     "data": null,
@@ -12419,6 +12769,16 @@
     "scrapedAt": 1777635987,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "novoulyanovsk__ulyanovskaya_oblast": {
+    "city": "Новоульяновск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "novoulyanovsk__ulyanovskaya_oblast",
+    "region": "Ульяновская область",
+    "scrapedAt": 1777635995,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "novouralsk__sverdlovskaya_oblast": {
     "city": "Новоуральск",
@@ -13219,6 +13579,16 @@
     "scrapedAt": 1777635991,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "ozersk__chelyabinskaya_oblast": {
+    "city": "Озёрск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "ozersk__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "ozersk__kaliningradskaya_oblast": {
     "city": "Озёрск",
@@ -14065,6 +14435,16 @@
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
+  "plast__chelyabinskaya_oblast": {
+    "city": "Пласт",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "plast__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "plavsk__tulskaya_oblast": {
     "city": "Плавск",
     "data": null,
@@ -14201,6 +14581,16 @@
     "scrapedAt": 1777635074,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "pokachi__khanty_mansiyskiy_ao": {
+    "city": "Покачи",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "pokachi__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
   },
   "pokhvistnevo__samarskaya_oblast": {
     "city": "Похвистнево",
@@ -14368,6 +14758,16 @@
     "scrapedAt": 1777635992,
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
+  },
+  "poshekhone__yaroslavskaya_oblast": {
+    "city": "Пошехонье",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "poshekhone__yaroslavskaya_oblast",
+    "region": "Ярославская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "povorino__voronezhskaya_oblast": {
     "city": "Поворино",
@@ -14963,6 +15363,26 @@
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
   },
+  "pyt_yakh__khanty_mansiyskiy_ao": {
+    "city": "Пыть-Ях",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "pyt_yakh__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "raduzhnyy__khanty_mansiyskiy_ao": {
+    "city": "Радужный",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "raduzhnyy__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
+  },
   "rasskazovo__tambovskaya_oblast": {
     "city": "Рассказово",
     "data": null,
@@ -15061,6 +15481,16 @@
     "scrapedAt": 1777635993,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "rostov__yaroslavskaya_oblast": {
+    "city": "Ростов",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "rostov__yaroslavskaya_oblast",
+    "region": "Ярославская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "rtishchevo__saratovskaya_oblast": {
     "city": "Ртищево",
@@ -15609,6 +16039,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "sengiley__ulyanovskaya_oblast": {
+    "city": "Сенгилей",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "sengiley__ulyanovskaya_oblast",
+    "region": "Ульяновская область",
+    "scrapedAt": 1777635995,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "serafimovich__volgogradskaya_oblast": {
     "city": "Серафимович",
     "data": {
@@ -15873,6 +16313,16 @@
     "scrapedAt": 1777635987,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "shali__chechenskaya_respublika": {
+    "city": "Шали",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "shali__chechenskaya_respublika",
+    "region": "Чеченская Республика",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 0.5,
+    "snow_region_lsk": "I"
   },
   "sharya__kostromskaya_oblast": {
     "city": "Шарья",
@@ -16475,6 +16925,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "shumerlya__chuvashskaya_respublika_chuvashiya": {
+    "city": "Шумерля",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "shumerlya__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская Республика - Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "shumikha__kurganskaya_oblast": {
     "city": "Шумиха",
     "data": {
@@ -16609,6 +17069,16 @@
     "scrapedAt": 1777635989,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "sim__chelyabinskaya_oblast": {
+    "city": "Сим",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "sim__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
   },
   "simferopol__respublika_krym": {
     "city": "Симферополь",
@@ -16958,6 +17428,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "snezhinsk__chelyabinskaya_oblast": {
+    "city": "Снежинск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "snezhinsk__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "snezhnogorsk__murmanskaya_oblast": {
     "city": "Снежногорск",
     "data": null,
@@ -17300,6 +17780,16 @@
     "scrapedAt": 1777635994,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "sovetskiy__khanty_mansiyskiy_ao": {
+    "city": "Советский",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "sovetskiy__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "spas_demensk__kaluzhskaya_oblast": {
     "city": "Спас-Деменск",
@@ -18229,6 +18719,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "tarko_sale__yamalo_nenetskiy_avtonomnyy_okrug": {
+    "city": "Тарко-Сале",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "tarko_sale__yamalo_nenetskiy_avtonomnyy_okrug",
+    "region": "Ямало-Ненецкий автономный округ",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.5,
+    "snow_region_lsk": "V"
+  },
   "tarusa__kaluzhskaya_oblast": {
     "city": "Таруса",
     "data": {
@@ -19108,6 +19608,26 @@
     "sg_kpa_lsk": 2.5,
     "snow_region_lsk": "V"
   },
+  "trekhgornyy__chelyabinskaya_oblast": {
+    "city": "Трёхгорный",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "trekhgornyy__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
+  },
+  "troitsk__chelyabinskaya_oblast": {
+    "city": "Троицк",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "troitsk__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
   "troitsk__moskovskaya_oblast": {
     "city": "Троицк",
     "data": null,
@@ -19166,6 +19686,16 @@
     "scrapedAt": 1777635991,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
+  },
+  "tsivilsk__chuvashskaya_respublika_chuvashiya": {
+    "city": "Цивильск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "tsivilsk__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская Республика - Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
   },
   "tuapse__krasnodarskiy_kray": {
     "city": "Туапсе",
@@ -19299,6 +19829,16 @@
     "id": "turinsk__sverdlovskaya_oblast",
     "region": "Свердловская область",
     "scrapedAt": 1777635993,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
+  "tutaev__yaroslavskaya_oblast": {
+    "city": "Тутаев",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "tutaev__yaroslavskaya_oblast",
+    "region": "Ярославская область",
+    "scrapedAt": 1777635996,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
@@ -19477,6 +20017,16 @@
     "sg_kpa_lsk": 3.0,
     "snow_region_lsk": "VI"
   },
+  "uglich__yaroslavskaya_oblast": {
+    "city": "Углич",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "uglich__yaroslavskaya_oblast",
+    "region": "Ярославская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "unecha__bryanskoy_oblasti": {
     "city": "Унеча",
     "data": {
@@ -19563,6 +20113,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "uray__khanty_mansiyskiy_ao": {
+    "city": "Урай",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "uray__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "uren__nizhegorodskoy_oblasti": {
     "city": "Урень",
     "data": null,
@@ -19572,6 +20132,16 @@
     "scrapedAt": 1777635987,
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
+  },
+  "urus_martan__chechenskaya_respublika": {
+    "city": "Урус-Мартан",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "urus_martan__chechenskaya_respublika",
+    "region": "Чеченская Республика",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 0.5,
+    "snow_region_lsk": "I"
   },
   "uryupinsk__volgogradskaya_oblast": {
     "city": "Урюпинск",
@@ -19767,6 +20337,16 @@
     "scrapedAt": 1777633537,
     "sg_kpa_lsk": 1.0,
     "snow_region_lsk": "II"
+  },
+  "ust_katav__chelyabinskaya_oblast": {
+    "city": "Усть-Катав",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "ust_katav__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
   },
   "ust_labinsk__krasnodarskiy_kray": {
     "city": "Усть-Лабинск",
@@ -20187,6 +20767,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "verkhneuralsk__chelyabinskaya_oblast": {
+    "city": "Верхнеуральск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "verkhneuralsk__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "verkhniy_tagil__sverdlovskaya_oblast": {
     "city": "Верхний Тагил",
     "data": null,
@@ -20194,6 +20784,16 @@
     "id": "verkhniy_tagil__sverdlovskaya_oblast",
     "region": "Свердловская область",
     "scrapedAt": 1777635992,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
+  },
+  "verkhniy_ufaley__chelyabinskaya_oblast": {
+    "city": "Верхний Уфалей",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "verkhniy_ufaley__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
@@ -20747,6 +21347,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "vyazemskiy__khabarovskiy_kray": {
+    "city": "Вяземский",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "vyazemskiy__khabarovskiy_kray",
+    "region": "Хабаровский край",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.0,
+    "snow_region_lsk": "II"
+  },
   "vyazniki__vladimirskaya_oblast": {
     "city": "Вязники",
     "data": {
@@ -20970,6 +21580,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "yadrin__chuvashskaya_respublika_chuvashiya": {
+    "city": "Ядрин",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "yadrin__chuvashskaya_respublika_chuvashiya",
+    "region": "Чувашская Республика - Чувашия",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "yakhroma__moskovskaya_oblast": {
     "city": "Яхрома",
     "data": null,
@@ -21128,6 +21748,16 @@
     "sg_kpa_lsk": 1.5,
     "snow_region_lsk": "III"
   },
+  "yugorsk__khanty_mansiyskiy_ao": {
+    "city": "Югорск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "yugorsk__khanty_mansiyskiy_ao",
+    "region": "Ханты-Мансийский АО",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 2.0,
+    "snow_region_lsk": "IV"
+  },
   "yukhnov__kaluzhskaya_oblast": {
     "city": "Юхнов",
     "data": {
@@ -21284,6 +21914,16 @@
     "sg_kpa_lsk": 2.0,
     "snow_region_lsk": "IV"
   },
+  "yuryuzan__chelyabinskaya_oblast": {
+    "city": "Юрюзань",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "yuryuzan__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 3.0,
+    "snow_region_lsk": "VI"
+  },
   "yuzha__ivanovskaya_oblast": {
     "city": "Южа",
     "data": {
@@ -21332,6 +21972,16 @@
     "scrapedAt": 1777635989,
     "sg_kpa_lsk": 0.5,
     "snow_region_lsk": "I"
+  },
+  "yuzhnouralsk__chelyabinskaya_oblast": {
+    "city": "Южноуральск",
+    "data": null,
+    "error": "Error('Page crashed')",
+    "id": "yuzhnouralsk__chelyabinskaya_oblast",
+    "region": "Челябинская область",
+    "scrapedAt": 1777635996,
+    "sg_kpa_lsk": 1.5,
+    "snow_region_lsk": "III"
   },
   "zadonsk__lipetskaya_oblast": {
     "city": "Задонск",
