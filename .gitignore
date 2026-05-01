@@ -3,9 +3,12 @@ node_modules/
 .DS_Store
 
 # scraper output: page dumps and screenshots are diagnostic only,
-# but ese-data.json is committed as a data source for build_data.py
+# but ese-data.json / ese-data-extended.json / lsk-lskos-cities.json /
+# geocoded-cities.json are committed as data sources for build_*.py
 outputs/*.html
 outputs/*.png
 outputs/scrape.log
+outputs/scrape-extended.log
+outputs/geocode.log
 scripts/__pycache__/
 
