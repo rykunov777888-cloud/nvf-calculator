@@ -56,42 +56,70 @@ export function getZeta(terrain: TerrainType, z_m: number): number {
   return interpolateTable(ZETA_TABLE[terrain], Math.max(z_m, 5));
 }
 
-/** Table 11.6 of СП 20.13330 — spatial correlation ν(ρ, χ) */
-const NU_RHO = [5, 10, 20, 40, 80, 160, 350];
-const NU_CHI = [5, 10, 20, 40, 80, 100, 200];
+/**
+ * Table 11.6 of СП 20.13330.2016 — spatial correlation coefficient ν(ρ, χ).
+ *
+ * Table values are taken directly from the reference Excel calculator's
+ * "Ветер по СП" sheet (cells AA68:AG74).
+ *
+ * Axis 1 (rows): ρ — first dimension of the load reference area
+ * Axis 2 (cols): χ — second dimension of the load reference area
+ */
+const NU_AXIS_1 = [0.1, 5, 10, 20, 40, 80, 160];
+const NU_AXIS_2 = [5, 10, 20, 40, 80, 160, 350];
 const NU_DATA: number[][] = [
-  [0.95, 0.92, 0.88, 0.83, 0.76, 0.73, 0.67],
-  [0.89, 0.87, 0.83, 0.78, 0.71, 0.69, 0.63],
-  [0.85, 0.83, 0.78, 0.73, 0.67, 0.65, 0.59],
-  [0.80, 0.76, 0.72, 0.67, 0.62, 0.60, 0.55],
-  [0.72, 0.67, 0.63, 0.59, 0.54, 0.52, 0.48],
-  [0.67, 0.62, 0.58, 0.54, 0.50, 0.49, 0.45],
-  [0.59, 0.56, 0.50, 0.47, 0.44, 0.42, 0.39],
+  [0.95, 0.92, 0.88, 0.83, 0.76, 0.67, 0.56],
+  [0.89, 0.87, 0.84, 0.80, 0.73, 0.65, 0.54],
+  [0.85, 0.84, 0.81, 0.77, 0.71, 0.64, 0.53],
+  [0.80, 0.78, 0.76, 0.73, 0.68, 0.61, 0.51],
+  [0.72, 0.72, 0.70, 0.67, 0.63, 0.57, 0.48],
+  [0.63, 0.63, 0.61, 0.59, 0.56, 0.51, 0.44],
+  [0.53, 0.53, 0.52, 0.50, 0.47, 0.44, 0.38],
 ];
 
+/**
+ * Locate the interpolation interval for `val` within `arr`.
+ * Reproduces Excel's `MATCH(val, arr, 1)` semantics: returns the
+ * largest index whose value is ≤ `val`, plus the next one as the
+ * upper bound (or last/last when `val` is at or beyond the end).
+ */
 function interpIdx(arr: number[], val: number): { lo: number; hi: number; frac: number } {
   if (val <= arr[0]) return { lo: 0, hi: 0, frac: 0 };
-  for (let i = 0; i < arr.length - 1; i++) {
-    if (val <= arr[i + 1]) {
+  for (let i = arr.length - 1; i >= 0; i--) {
+    if (arr[i] <= val) {
+      if (i === arr.length - 1) return { lo: i, hi: i, frac: 0 };
       return { lo: i, hi: i + 1, frac: (val - arr[i]) / (arr[i + 1] - arr[i]) };
     }
   }
-  const last = arr.length - 1;
-  return { lo: last, hi: last, frac: 0 };
+  return { lo: 0, hi: 0, frac: 0 };
 }
 
-export function getNu(rho: number, chi: number): number {
-  const ri = interpIdx(NU_RHO, rho);
-  const ci = interpIdx(NU_CHI, chi);
+/**
+ * Bilinear interpolation reproducing the source Excel calculator's
+ * approach (rows interpolated linearly by ρ; columns interpolated
+ * along χ with the inverse-direction weighting used in the Excel
+ * formula for cells Q16/Q17/Q18 etc.).
+ */
+export function getNu(axis1: number, axis2: number): number {
+  const a1 = interpIdx(NU_AXIS_1, axis1);
+  const a2 = interpIdx(NU_AXIS_2, axis2);
 
-  const v00 = NU_DATA[ri.lo][ci.lo];
-  const v01 = NU_DATA[ri.lo][ci.hi];
-  const v10 = NU_DATA[ri.hi][ci.lo];
-  const v11 = NU_DATA[ri.hi][ci.hi];
+  const v00 = NU_DATA[a1.lo][a2.lo];
+  const v01 = NU_DATA[a1.lo][a2.hi];
+  const v10 = NU_DATA[a1.hi][a2.lo];
+  const v11 = NU_DATA[a1.hi][a2.hi];
 
-  const top = v00 + ci.frac * (v01 - v00);
-  const bot = v10 + ci.frac * (v11 - v10);
-  return top + ri.frac * (bot - top);
+  // L: interpolate along ρ at χ = axis2_lower
+  const L = v00 + a1.frac * (v10 - v00);
+  // M: interpolate along ρ at χ = axis2_upper
+  const M = v01 + a1.frac * (v11 - v01);
+
+  // χ direction interpolation as written in the source Excel:
+  // Q = (axis2_upper - target) / (axis2_upper - axis2_lower) * (M - L) + L
+  const lo = NU_AXIS_2[a2.lo];
+  const hi = NU_AXIS_2[a2.hi];
+  if (hi === lo) return L;
+  return ((hi - axis2) / (hi - lo)) * (M - L) + L;
 }
 
 function zoneTotal(
@@ -115,10 +143,19 @@ export interface WindResult {
 }
 
 /**
- * Wind calculation per СП 20.13330.2016 matching the Excel logic.
+ * Wind calculation per СП 20.13330.2016 matching the source Excel.
  *
- * B25 = max(long_B, short_B) + FGH+
- * C25 = FGH+
+ * B25 (горизонт. для момента) = max(long_B, short_B) + FGH+
+ * C25 (вертикальная)          = FGH+
+ *
+ * The ν assignments below follow the exact wiring in the Excel
+ * helper rows (Q16/Q17/Q18 for long side, Q19/Q20/Q21 for short side).
+ *
+ *   Long-side wind (wind perpendicular to length):
+ *     - zone B    → ν = ν(0.4·span, h)         [Q17 / L27]
+ *     - FGH+      → ν = ν(0.4·span, h)         [Q17 / L27]
+ *   Short-side wind (wind perpendicular to span):
+ *     - zone B    → ν = ν(span, h)             [Q20 / L40]
  */
 export function calcWind(
   w0: number,
@@ -132,22 +169,13 @@ export function calcWind(
   const zeta = getZeta(terrain, h);
   const gamma_f = 1.4;
 
-  // Correlation coefficients (nu) for different surfaces
-  // Long side (wind on length_m facade):
-  //   Windward A,B,C,FGH+: rho = 0.4*span, chi = height → nuY_long
-  //   Leeward D,E: rho = length, chi = height → nuX_long
-  const nuY_long = getNu(0.4 * span_m, h);
+  const nuLongB = getNu(0.4 * span_m, h);
+  const nuShortB = getNu(span_m, h);
+  const nuFghPlus = nuLongB;
 
-  // Short side (wind on span_m facade):
-  //   Windward A,B: rho = span, chi = height → nuX_short (but actually uses nuY_short)
-  const nuY_short = getNu(0.4 * length_m, h);
-
-  // Zone B on long side (C = -0.8)
-  const longB = zoneTotal(w0, kze, -0.8, gamma_f, zeta, nuY_long);
-  // Zone B on short side (C = -0.8)
-  const shortB = zoneTotal(w0, kze, -0.8, gamma_f, zeta, nuY_short);
-  // FGH+ zone (C = 0.2)
-  const fghPlus = zoneTotal(w0, kze, 0.2, gamma_f, zeta, nuY_long);
+  const longB = zoneTotal(w0, kze, -0.8, gamma_f, zeta, nuLongB);
+  const shortB = zoneTotal(w0, kze, -0.8, gamma_f, zeta, nuShortB);
+  const fghPlus = zoneTotal(w0, kze, 0.2, gamma_f, zeta, nuFghPlus);
 
   return {
     horizontalPressure_kPa: Math.max(longB, shortB) + fghPlus,
